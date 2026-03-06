@@ -1,0 +1,92 @@
+[
+  {
+    "skillName": "C",
+    "totalProjects": "8+",
+    "totalExperience": "3 years",
+    "description": "Where it all began — writing C gave me a deep appreciation for memory management, pointers, and how software truly talks to hardware.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/c",
+    "learningLink": "https://www.learn-c.org/",
+    "learningSource": "Learn-C.org"
+  },
+  {
+    "skillName": "C++",
+    "totalProjects": "15+",
+    "totalExperience": "4 years",
+    "description": "I use C++ for performance-critical applications — OOP, STL, and low-level memory control make it my weapon of choice for systems programming.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/cpp",
+    "learningLink": "https://cppreference.com/",
+    "learningSource": "CPP Reference"
+  },
+  {
+    "skillName": "C#",
+    "totalProjects": "12+",
+    "totalExperience": "3 years",
+    "description": "A clean, powerful language I use for .NET applications and game logic — its strong typing and LINQ support make complex data tasks a breeze.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/csharp",
+    "learningLink": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    "learningSource": "Microsoft Docs"
+  },
+  {
+    "skillName": "Python",
+    "totalProjects": "35+",
+    "totalExperience": "5 years",
+    "description": "My Swiss Army knife — I use Python for everything from backend APIs and data pipelines to AI integrations and automation scripts.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/python",
+    "learningLink": "https://docs.python.org/3/",
+    "learningSource": "Python Docs"
+  },
+  {
+    "skillName": "Rust",
+    "totalProjects": "6+",
+    "totalExperience": "2 years",
+    "description": "Rust challenges me in the best way — its ownership model and zero-cost abstractions push me to write safer, faster systems-level code.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/rust",
+    "learningLink": "https://doc.rust-lang.org/book/",
+    "learningSource": "The Rust Book"
+  },
+  {
+    "skillName": "Go",
+    "totalProjects": "10+",
+    "totalExperience": "3 years",
+    "description": "Go's simplicity and blazing concurrency model make it my top pick for building high-throughput microservices and CLI tools.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/go",
+    "learningLink": "https://go.dev/doc/",
+    "learningSource": "Go Docs"
+  },
+  {
+    "skillName": "Java",
+    "totalProjects": "20+",
+    "totalExperience": "4 years",
+    "description": "Battle-tested with Java for enterprise backends and Android — its robust ecosystem and strict OOP patterns sharpen my architectural thinking.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/java",
+    "learningLink": "https://docs.oracle.com/en/java/",
+    "learningSource": "Oracle Java Docs"
+  },
+  {
+    "skillName": "JavaScript",
+    "totalProjects": "50+",
+    "totalExperience": "5 years",
+    "description": "The language I breathe — from DOM manipulation to async wizardry, JavaScript powers virtually everything I build on the web.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/javascript",
+    "learningLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "learningSource": "MDN Web Docs"
+  },
+  {
+    "skillName": "TypeScript",
+    "totalProjects": "45+",
+    "totalExperience": "5 years",
+    "description": "TypeScript is JavaScript with superpowers — I rely on it daily for type-safe codebases that scale without becoming a maintenance nightmare.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/typescript",
+    "learningLink": "https://www.typescriptlang.org/docs/",
+    "learningSource": "TypeScript Docs"
+  },
+  {
+    "skillName": "Bash",
+    "totalProjects": "25+",
+    "totalExperience": "4 years",
+    "description": "Bash is my automation glue — I write shell scripts for deployment pipelines, server setup, file processing, and anything that should never be done manually twice.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/bash",
+    "learningLink": "https://www.gnu.org/software/bash/manual/",
+    "learningSource": "GNU Bash Manual"
+  }
+]

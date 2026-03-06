@@ -1,0 +1,200 @@
+[
+  {
+    "skillName": "Express JS",
+    "totalProjects": "18+",
+    "totalExperience": "5 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/express-js",
+    "learningLink": "https://expressjs.com/en/guide/routing.html",
+    "learningSource": "Express Docs"
+  },
+  {
+    "skillName": "Node JS",
+    "totalProjects": "22+",
+    "totalExperience": "5 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/node-js",
+    "learningLink": "https://nodejs.org/en/docs",
+    "learningSource": "Node Docs"
+  },
+  {
+    "skillName": "REST API",
+    "totalProjects": "20+",
+    "totalExperience": "5 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/rest-api",
+    "learningLink": "https://restfulapi.net/",
+    "learningSource": "RESTful API Docs"
+  },
+  {
+    "skillName": "FastAPI",
+    "totalProjects": "8+",
+    "totalExperience": "3 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/fastapi",
+    "learningLink": "https://fastapi.tiangolo.com/",
+    "learningSource": "FastAPI Docs"
+  },
+  {
+    "skillName": "GraphQL",
+    "totalProjects": "9+",
+    "totalExperience": "3 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/graphql",
+    "learningLink": "https://graphql.org/learn/",
+    "learningSource": "GraphQL Docs"
+  },
+  {
+    "skillName": "Mongoose",
+    "totalProjects": "16+",
+    "totalExperience": "4 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/mongoose",
+    "learningLink": "https://mongoosejs.com/docs/",
+    "learningSource": "Mongoose Docs"
+  },
+  {
+    "skillName": "Socket.IO",
+    "totalProjects": "7+",
+    "totalExperience": "3 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/socket-io",
+    "learningLink": "https://socket.io/docs/v4/",
+    "learningSource": "Socket.IO Docs"
+  },
+  {
+    "skillName": "Firebase",
+    "totalProjects": "12+",
+    "totalExperience": "4 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/firebase",
+    "learningLink": "https://firebase.google.com/docs",
+    "learningSource": "Firebase Docs"
+  },
+  {
+    "skillName": "JWT",
+    "totalProjects": "18+",
+    "totalExperience": "5 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/jwt",
+    "learningLink": "https://jwt.io/introduction",
+    "learningSource": "JWT Docs"
+  },
+  {
+    "skillName": "OAuth 2.0",
+    "totalProjects": "13+",
+    "totalExperience": "4 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/oauth2",
+    "learningLink": "https://oauth.net/2/",
+    "learningSource": "OAuth Docs"
+  },
+  {
+    "skillName": "RBAC",
+    "totalProjects": "11+",
+    "totalExperience": "4 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/rbac",
+    "learningLink": "https://auth0.com/docs/manage-users/access-control/rbac",
+    "learningSource": "Auth0 Docs"
+  },
+  {
+    "skillName": "Bcrypt",
+    "totalProjects": "19+",
+    "totalExperience": "5 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/bcrypt",
+    "learningLink": "https://www.npmjs.com/package/bcrypt",
+    "learningSource": "NPM Docs"
+  },
+  {
+    "skillName": "Helmet",
+    "totalProjects": "14+",
+    "totalExperience": "4 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/helmet",
+    "learningLink": "https://helmetjs.github.io/",
+    "learningSource": "Helmet Docs"
+  },
+  {
+    "skillName": "Swagger",
+    "totalProjects": "12+",
+    "totalExperience": "4 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/swagger",
+    "learningLink": "https://swagger.io/docs/",
+    "learningSource": "Swagger Docs"
+  },
+  {
+    "skillName": "Postman",
+    "totalProjects": "15+",
+    "totalExperience": "4 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/postman",
+    "learningLink": "https://learning.postman.com/docs/getting-started/overview/",
+    "learningSource": "Postman Docs"
+  },
+  {
+    "skillName": "Redis",
+    "totalProjects": "8+",
+    "totalExperience": "3 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/redis",
+    "learningLink": "https://redis.io/docs/latest/",
+    "learningSource": "Redis Docs"
+  },
+  {
+    "skillName": "Cloudflare",
+    "totalProjects": "6+",
+    "totalExperience": "3 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/cloudflare",
+    "learningLink": "https://developers.cloudflare.com/",
+    "learningSource": "Cloudflare Docs"
+  },
+  {
+    "skillName": "Winston Logger",
+    "totalProjects": "11+",
+    "totalExperience": "4 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/winston-logger",
+    "learningLink": "https://github.com/winstonjs/winston",
+    "learningSource": "Winston Docs"
+  },
+  {
+    "skillName": "Anthropic API",
+    "totalProjects": "4+",
+    "totalExperience": "2 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/anthropic-api",
+    "learningLink": "https://docs.anthropic.com/en/docs/",
+    "learningSource": "Anthropic Docs"
+  },
+  {
+    "skillName": "OpenAI API",
+    "totalProjects": "7+",
+    "totalExperience": "3 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/openai-api",
+    "learningLink": "https://platform.openai.com/docs/overview",
+    "learningSource": "OpenAI Docs"
+  },
+  {
+    "skillName": "AWS",
+    "totalProjects": "9+",
+    "totalExperience": "3 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/aws",
+    "learningLink": "https://docs.aws.amazon.com/",
+    "learningSource": "AWS Docs"
+  },
+  {
+    "skillName": "Cloudinary",
+    "totalProjects": "8+",
+    "totalExperience": "3 years",
+    "description": "This is my daily use skill",
+    "githubLink": "https://github.com/GyanaprakashKhandual/cloudinary",
+    "learningLink": "https://cloudinary.com/documentation",
+    "learningSource": "Cloudinary Docs"
+  }
+]

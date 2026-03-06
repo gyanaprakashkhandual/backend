@@ -1,0 +1,155 @@
+[
+  {
+    "skillName": "AWS",
+    "totalProjects": "18+",
+    "totalExperience": "4 years",
+    "description": "My primary cloud platform — I deploy scalable infrastructure using EC2, S3, Lambda, and CloudWatch for production-grade applications.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/aws",
+    "learningLink": "https://docs.aws.amazon.com/",
+    "learningSource": "AWS Docs"
+  },
+  {
+    "skillName": "Render",
+    "totalProjects": "12+",
+    "totalExperience": "3 years",
+    "description": "A developer-friendly cloud platform I use for quick, zero-config deployments of full-stack apps with built-in auto-scaling.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/render",
+    "learningLink": "https://render.com/docs",
+    "learningSource": "Render Docs"
+  },
+  {
+    "skillName": "Netlify",
+    "totalProjects": "25+",
+    "totalExperience": "4 years",
+    "description": "My go-to for frontend deployments — instant CI/CD, edge functions, and form handling make Netlify incredibly productive.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/netlify",
+    "learningLink": "https://docs.netlify.com/",
+    "learningSource": "Netlify Docs"
+  },
+  {
+    "skillName": "DigitalOcean",
+    "totalProjects": "10+",
+    "totalExperience": "3 years",
+    "description": "I use DigitalOcean Droplets and App Platform for affordable, reliable cloud hosting with straightforward server management.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/digitalocean",
+    "learningLink": "https://docs.digitalocean.com/",
+    "learningSource": "DigitalOcean Docs"
+  },
+  {
+    "skillName": "GoDaddy",
+    "totalProjects": "8+",
+    "totalExperience": "2 years",
+    "description": "Experienced with GoDaddy for domain registration, DNS management, and connecting custom domains to deployed applications.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/godaddy",
+    "learningLink": "https://www.godaddy.com/help",
+    "learningSource": "GoDaddy Help Center"
+  },
+  {
+    "skillName": "Hostinger",
+    "totalProjects": "6+",
+    "totalExperience": "2 years",
+    "description": "I use Hostinger for budget-friendly shared and VPS hosting — great for client projects that need simple, fast deployment.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/hostinger",
+    "learningLink": "https://support.hostinger.com/en/",
+    "learningSource": "Hostinger Support"
+  },
+  {
+    "skillName": "GitHub Pages",
+    "totalProjects": "30+",
+    "totalExperience": "5 years",
+    "description": "My most-used free hosting solution — I've shipped dozens of portfolio pieces, docs, and static sites directly from GitHub repos.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/github-pages",
+    "learningLink": "https://docs.github.com/en/pages",
+    "learningSource": "GitHub Docs"
+  },
+  {
+    "skillName": "Docker",
+    "totalProjects": "22+",
+    "totalExperience": "4 years",
+    "description": "Containerization is core to my workflow — I build, ship, and run apps in Docker to eliminate environment inconsistencies across teams.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/docker",
+    "learningLink": "https://docs.docker.com/",
+    "learningSource": "Docker Docs"
+  },
+  {
+    "skillName": "Kubernetes",
+    "totalProjects": "9+",
+    "totalExperience": "3 years",
+    "description": "I orchestrate containerized workloads with Kubernetes — managing pods, services, and deployments for highly available systems.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/kubernetes",
+    "learningLink": "https://kubernetes.io/docs/home/",
+    "learningSource": "Kubernetes Docs"
+  },
+  {
+    "skillName": "Linux",
+    "totalProjects": "35+",
+    "totalExperience": "5 years",
+    "description": "Linux is my natural habitat — from shell scripting and cron jobs to server hardening and process management, I'm fully at home in the terminal.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/linux",
+    "learningLink": "https://linux.die.net/",
+    "learningSource": "Linux Man Pages"
+  },
+  {
+    "skillName": "Nginx",
+    "totalProjects": "20+",
+    "totalExperience": "4 years",
+    "description": "I configure Nginx as a reverse proxy, load balancer, and static file server — a critical part of my production server setup.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/nginx",
+    "learningLink": "https://nginx.org/en/docs/",
+    "learningSource": "Nginx Docs"
+  },
+  {
+    "skillName": "Apache",
+    "totalProjects": "15+",
+    "totalExperience": "3 years",
+    "description": "Solid experience with Apache HTTP Server for hosting web apps, configuring virtual hosts, and managing .htaccess rules.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/apache",
+    "learningLink": "https://httpd.apache.org/docs/",
+    "learningSource": "Apache Docs"
+  },
+  {
+    "skillName": "GitHub Actions",
+    "totalProjects": "28+",
+    "totalExperience": "4 years",
+    "description": "I automate everything with GitHub Actions — CI/CD pipelines, test runners, Docker builds, and deployment workflows all live in my repos.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/github-actions",
+    "learningLink": "https://docs.github.com/en/actions",
+    "learningSource": "GitHub Docs"
+  },
+  {
+    "skillName": "GitLab CI",
+    "totalProjects": "12+",
+    "totalExperience": "3 years",
+    "description": "I build robust GitLab CI/CD pipelines with multi-stage jobs, environment-specific deployments, and artifact caching strategies.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/gitlab-ci",
+    "learningLink": "https://docs.gitlab.com/ee/ci/",
+    "learningSource": "GitLab Docs"
+  },
+  {
+    "skillName": "Jenkins",
+    "totalProjects": "11+",
+    "totalExperience": "3 years",
+    "description": "Experienced with Jenkins for enterprise-grade automation — building pipelines, managing plugins, and integrating with Docker and Git.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/jenkins",
+    "learningLink": "https://www.jenkins.io/doc/",
+    "learningSource": "Jenkins Docs"
+  },
+  {
+    "skillName": "Subdomains",
+    "totalProjects": "24+",
+    "totalExperience": "4 years",
+    "description": "I architect multi-service apps using subdomains — routing api., admin., and app. prefixes with DNS and reverse proxy configurations.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/subdomains",
+    "learningLink": "https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-subdomain/",
+    "learningSource": "Cloudflare Docs"
+  },
+  {
+    "skillName": "Cloudflare",
+    "totalProjects": "19+",
+    "totalExperience": "4 years",
+    "description": "I rely on Cloudflare for DNS management, DDoS protection, SSL termination, and edge caching to keep apps fast and secure globally.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/cloudflare",
+    "learningLink": "https://developers.cloudflare.com/",
+    "learningSource": "Cloudflare Docs"
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "education": [
+    {
+      "grade": "A++",
+      "title": "Standard One to Twelfth Standard",
+      "institution": "Utkal University",
+      "location": "Bhubaneswar, Odisha",
+      "duration": {
+        "start": null,
+        "end": "June 2021"
+      },
+      "stream": "Science Stream"
+    },
+    {
+      "grade": "A++",
+      "title": "Bachelor of Computer Application (BCA)",
+      "institution": "Utkal University",
+      "location": "Bhubaneswar, Odisha",
+      "duration": {
+        "start": "July 2021",
+        "end": "July 2024"
+      },
+      "stream": "Computer Applications"
+    },
+    {
+      "grade": "A++",
+      "title": "Software Development Engineer in Test (SDET)",
+      "institution": "Masai School",
+      "location": "India",
+      "duration": {
+        "start": "July 2024",
+        "end": "December 2024"
+      },
+      "stream": "Software Testing & Automation"
+    },
+    {
+      "grade": "A++",
+      "title": "Full Stack Web Development",
+      "institution": "Udemy",
+      "location": "Online",
+      "duration": {
+        "start": "January 2025",
+        "end": "April 2025"
+      },
+      "stream": "MERN Stack Development"
+    },
+    {
+      "grade": "A++",
+      "title": "Ethical Hacking",
+      "institution": "Udemy",
+      "location": "Online",
+      "duration": {
+        "start": "May 2025",
+        "end": "August 2025"
+      },
+      "stream": "Cybersecurity & Ethical Hacking"
+    }
+  ]
+}

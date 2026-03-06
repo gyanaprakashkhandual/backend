@@ -1,0 +1,65 @@
+[
+  {
+    "skillName": "Grafana",
+    "totalProjects": "18+",
+    "totalExperience": "4 years",
+    "description": "I build rich, real-time dashboards in Grafana to visualize system metrics, track performance trends, and catch anomalies before they become incidents.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/grafana",
+    "learningLink": "https://grafana.com/docs/grafana/latest/",
+    "learningSource": "Grafana Docs"
+  },
+  {
+    "skillName": "Prometheus",
+    "totalProjects": "16+",
+    "totalExperience": "4 years",
+    "description": "My metrics collection backbone — I configure Prometheus scrapers, alerting rules, and exporters to monitor every layer of my infrastructure.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/prometheus",
+    "learningLink": "https://prometheus.io/docs/introduction/overview/",
+    "learningSource": "Prometheus Docs"
+  },
+  {
+    "skillName": "Sentry",
+    "totalProjects": "30+",
+    "totalExperience": "5 years",
+    "description": "Sentry is my first line of defense for error tracking — I integrate it across frontend and backend to catch, trace, and resolve bugs in real time.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/sentry",
+    "learningLink": "https://docs.sentry.io/",
+    "learningSource": "Sentry Docs"
+  },
+  {
+    "skillName": "ELK Stack",
+    "totalProjects": "12+",
+    "totalExperience": "3 years",
+    "description": "I use the ELK Stack to aggregate, parse, and search through massive log volumes — turning raw log data into actionable operational insights.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/elk-stack",
+    "learningLink": "https://www.elastic.co/guide/index.html",
+    "learningSource": "Elastic Docs"
+  },
+  {
+    "skillName": "UptimeRobot",
+    "totalProjects": "25+",
+    "totalExperience": "4 years",
+    "description": "I set up UptimeRobot monitors across all my deployments to get instant alerts on downtime and maintain high availability SLAs for clients.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/uptimerobot",
+    "learningLink": "https://uptimerobot.com/help/",
+    "learningSource": "UptimeRobot Help"
+  },
+  {
+    "skillName": "Google Analytics",
+    "totalProjects": "40+",
+    "totalExperience": "5 years",
+    "description": "I wire up Google Analytics across web apps to track user journeys, conversion funnels, and traffic sources — turning behavior data into product decisions.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/google-analytics",
+    "learningLink": "https://support.google.com/analytics/",
+    "learningSource": "Google Analytics Help"
+  },
+  {
+    "skillName": "Cloudflare",
+    "totalProjects": "22+",
+    "totalExperience": "4 years",
+    "description": "Beyond DNS and security, I leverage Cloudflare's analytics and bot management tools to monitor traffic patterns and protect apps from malicious activity.",
+    "githubLink": "https://github.com/GyanaprakashKhandual/cloudflare",
+    "learningLink": "https://developers.cloudflare.com/analytics/",
+    "learningSource": "Cloudflare Docs"
+  }
+]

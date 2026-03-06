@@ -1,0 +1,64 @@
+{
+  "experience": [
+    {
+      "slug": "avidus-interactive-fullstack-sdet",
+      "role": "Full Stack Web Developer & SDET",
+      "company": "Avidus Interactive",
+      "location": "Remote",
+      "duration": {
+        "start": "October 2025",
+        "end": "Present"
+      },
+      "summary": "Architecting complete product design, full stack development, and quality assurance strategy while managing company-wide testing infrastructure.",
+
+      "highlights": [
+        "Designed complete front-end UI for web and mobile applications from scratch",
+        "Collaborated with UI/UX designers and front-end developers",
+        "Created accessible and user-centric product interfaces",
+        "Designed backend systems focusing on security and performance",
+        "Managed quality assurance across the entire organization",
+        "Led seven cross-functional teams to achieve zero-complaint operations",
+        "Managed company-wide testing infrastructure as the sole QA engineer"
+      ],
+
+      "achievements": [
+        {
+          "title": "Zero Complaint Operations",
+          "description": "Led seven cross-functional teams and maintained zero customer complaints through robust QA systems."
+        },
+        {
+          "title": "Single-Handed QA Leadership",
+          "description": "Managed and architected the entire company testing infrastructure as the sole QA engineer."
+        }
+      ],
+
+      "skills": [
+        "Full Stack Development",
+        "Product Design",
+        "UI/UX Design",
+        "SDET",
+        "Frontend Architecture",
+        "Backend Design",
+        "Security Testing",
+        "Team Leadership",
+        "System Design"
+      ],
+
+      "techStack": [
+        "JavaScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Figma",
+        "Cypress",
+        "Automation Testing",
+        "CI/CD Pipeline",
+        "Performance Optimization"
+      ],
+
+      "about": "This hybrid role combines full stack development, product design, and SDET expertise. I architect complete product experiences from frontend interfaces to backend systems while ensuring high-quality standards through robust testing infrastructure. As the sole QA engineer managing company-wide testing, I successfully led seven cross-functional teams to achieve zero-complaint operations. My work ensures scalable systems, secure backend architecture, and user-centric design across all platforms."
+    }
+  ]
+}

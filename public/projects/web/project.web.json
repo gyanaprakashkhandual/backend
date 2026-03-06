@@ -1,0 +1,240 @@
+[
+  {
+    "projectName": "Caffetest",
+    "projectSlug": "caffetest",
+    "projectDescription": "A web application for automating all the manual effort on automation testing.",
+    "projectType": "Full Stack Web Application",
+    "projectTags": ["Web Development", "Automation Testing", "Full Stack"],
+    "projectBackendRepository": "https://github.com/GyanaprakashKhandual/Bug-tracker-backend",
+    "projectFrontendRepository": "https://github.com/GyanaprakashKhandual/Bug-tracker-frontend",
+    "projectLiveDemo": "https://caffetest.vercel.app/",
+    "projectImage": [
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/caffetest_dashboard.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/caffetest_kanban.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/caffetest_testcases.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/caffetest_reports.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/caffetest_bugtracking.png"
+    ],
+    "projectTechnologies": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Vercel",
+      "Cloudinary",
+      "Tailwind CSS",
+      "Render",
+      "Next JS"
+    ],
+    "projectFeatures": [
+      "Access Management with role-based permissions",
+      "Project and workspace management",
+      "Hierarchical folder system for organizing test cases",
+      "Sprint and phase management for agile workflows",
+      "Multiple dashboard views including Kanban, Card, Split and List",
+      "Real-time auto-save and keystroke tracking",
+      "Complete CRUD operations for test cases, bugs and reports",
+      "Built-in documentation similar to Confluence",
+      "Import and export features for backup and migration",
+      "AI-powered test generation from Selenium automation scripts",
+      "Automatic bug creation from failed test cases",
+      "Integrated messaging and team collaboration"
+    ],
+    "projectOverview": "CafeTest is a comprehensive bug tracking and test management platform designed to automate and streamline software testing workflows. The application integrates modern full stack technologies with AI capabilities to simplify how QA teams manage projects, test cases, bugs, and reports. By combining structured test management with intelligent automation, CafeTest eliminates repetitive manual effort and improves testing efficiency.\n\nThe platform includes enterprise-grade capabilities such as role-based access control, project organization, sprint planning, and flexible dashboards. It also integrates AI APIs to automatically generate test cases from Selenium automation scripts and identify failures as bugs. With features like real-time synchronization, collaborative messaging, documentation support, and detailed reporting dashboards, CafeTest acts as a centralized platform for developers, testers, and project managers.",
+    "projectKeyFeatures": "AI Test Case Generation from Selenium Scripts\nRole-Based Access Management\nMulti-view Dashboard (Kanban, Split, Card, List)\nReal-time Auto-save with Keystroke Detection\nBuilt-in Messaging & Collaboration\nTheme Customization (Dark/Light/System)\nVS Code Extension Integration\nImport/Export & Sharing Features",
+    "projectTimeLine": "Planning & Research - Architecture design and feature planning\nPhase 1 Development - Core backend APIs and database structure\nPhase 2 Development - Frontend UI, dashboard views, and test management system\nPhase 3 Integration - AI APIs, messaging system, and automation workflows\nDeployment - Production deployment using Vercel and Render",
+    "projectStandOutFeatures": "The most unique feature of CafeTest is the VS Code extension integration that leverages Anthropic AI APIs to automatically generate test cases from Selenium automation scripts. It also detects failures during execution and categorizes them as bugs, significantly reducing manual effort in test creation and bug reporting. This makes CafeTest far more intelligent than traditional tools such as Jira and Zephyr.",
+    "projectChallenges": "Designing a scalable test case management structure for large projects\nImplementing real-time auto-save and synchronization without performance issues\nIntegrating AI APIs for automated test generation\nBuilding multiple dashboard views with dynamic data handling\nCreating a seamless workflow between test execution and bug tracking",
+    "projectLessonsLearned": "Improved understanding of scalable full-stack architecture\nLearned advanced state management and real-time data handling\nExperience integrating AI APIs into practical developer workflows\nDeepened knowledge of automation testing workflows and bug management systems\nEnhanced UI/UX design for complex dashboard applications",
+    "projectFuturePlans": "Add CI/CD integration for automated testing pipelines\nIntroduce AI-powered bug prioritization and severity prediction\nAdd advanced analytics dashboards with predictive insights\nIntegrate additional automation frameworks like Cypress and Playwright\nDevelop a desktop version using Electron",
+    "projectContributors": [
+      {
+        "name": "Gyana prakash Khandual",
+        "role": "Full Stack Developer",
+        "githubProfile": "https://github.com/GyanaprakashKhandual",
+        "linkedinProfile": "https://www.linkedin.com/in/gyanaprakashkhandual/",
+        "email": "gyanprakashkhandual@gmail.com"
+      }
+    ]
+  },
+  {
+    "projectName": "Resolution Pro",
+    "projectSlug": "resolution-pro",
+    "projectDescription": "A full stack document sharing and meeting tracking platform with AI-powered features, user management, and secure access control designed for seamless collaboration across organizations.",
+    "projectType": "Full Stack Web Application",
+    "projectTags": [
+      "Web Development",
+      "Document Management",
+      "Collaboration Platform",
+      "Full Stack"
+    ],
+    "projectBackendRepository": "https://github.com/GyanaprakashKhandual/resolution-pro-backend",
+    "projectFrontendRepository": "https://github.com/GyanaprakashKhandual/resolution-pro-frontend",
+    "projectLiveDemo": "https://resolution-pro-demo.vercel.app/",
+    "projectImage": [
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/resolutionpro_dashboard.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/resolutionpro_documents.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/resolutionpro_meetings.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/resolutionpro_ai_features.png"
+    ],
+    "projectTechnologies": [
+      "React",
+      "Next JS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Tailwind CSS",
+      "Cloudinary",
+      "Vercel",
+      "Render"
+    ],
+    "projectFeatures": [
+      "Secure document sharing and management system",
+      "AI-powered document insights and recommendations",
+      "Meeting scheduling and tracking across teams",
+      "Role-based access management for users",
+      "Real-time collaboration and document updates",
+      "Advanced search and filtering for documents and meetings",
+      "Full CRUD operations for documents, meetings, and users",
+      "Dashboard analytics for document activity and meetings"
+    ],
+    "projectOverview": "Resolution Pro is a full stack collaboration platform designed to simplify document sharing, meeting management, and organizational communication. The application enables teams to upload, manage, and share documents securely while maintaining structured meeting records and collaboration workflows. It integrates AI-powered capabilities to provide intelligent insights, automate document processing, and enhance productivity. Built using modern web technologies, the platform focuses on scalability, security, and seamless user experience for enterprise-level collaboration.",
+    "projectKeyFeatures": "AI-assisted document management\nMeeting scheduling and tracking system\nRole-based user access control\nSecure document sharing and storage\nInteractive dashboard with activity insights\nAdvanced search and filtering features\nFull collaboration tools for teams",
+    "projectTimeLine": "Planning & System Design - Architecture planning and feature specification\nPhase 1 Development - Backend APIs and database schema\nPhase 2 Development - Frontend UI and document management features\nPhase 3 Integration - AI integration, authentication, and collaboration tools\nDeployment - Production deployment using Vercel and Render",
+    "projectStandOutFeatures": "Resolution Pro stands out by combining document sharing, meeting management, and AI-powered insights in a single collaboration platform. The integration of AI enhances document understanding and workflow automation, making it highly efficient for teams managing large volumes of documents and meetings.",
+    "projectChallenges": "Designing a scalable document storage and management system\nImplementing secure role-based access control\nHandling large document uploads and storage efficiently\nEnsuring smooth real-time collaboration features\nIntegrating AI features without affecting performance",
+    "projectLessonsLearned": "Improved understanding of full stack architecture and scalable application design\nLearned secure authentication and authorization strategies\nEnhanced experience in building collaboration-based web platforms\nGained practical knowledge of integrating AI features into production applications",
+    "projectFuturePlans": "Add real-time document editing and collaborative commenting\nImplement AI-powered meeting summaries\nIntroduce notification and reminder systems\nAdd enterprise-level integrations with tools like Slack and Google Drive\nDevelop a desktop version using Electron",
+    "projectContributors": [
+      {
+        "name": "Gyana prakash Khandual",
+        "role": "Full Stack Developer",
+        "githubProfile": "https://github.com/GyanaprakashKhandual",
+        "linkedinProfile": "https://www.linkedin.com/in/gyanaprakashkhandual/",
+        "email": "gyanprakashkhandual@gmail.com"
+      }
+    ]
+  },
+  {
+    "projectName": "Mega Jewelers",
+    "projectSlug": "mega-jewelers",
+    "projectDescription": "A complete e-commerce platform designed for jewelry businesses with product management, inventory tracking, secure user access, and integrated sales management.",
+    "projectType": "Full Stack Web Application",
+    "projectTags": [
+      "E-commerce",
+      "Web Development",
+      "Inventory Management",
+      "Full Stack"
+    ],
+    "projectBackendRepository": "https://github.com/GyanaprakashKhandual/mega-jewelers-backend",
+    "projectFrontendRepository": "https://github.com/GyanaprakashKhandual/mega-jewelers-frontend",
+    "projectLiveDemo": "https://mega-jewelers.vercel.app/",
+    "projectImage": [
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/megajewelers_home.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/megajewelers_products.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/megajewelers_inventory.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/megajewelers_dashboard.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/megajewelers_orders.png"
+    ],
+    "projectTechnologies": [
+      "React",
+      "Next JS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Tailwind CSS",
+      "Cloudinary",
+      "Vercel",
+      "Render"
+    ],
+    "projectFeatures": [
+      "Complete e-commerce platform for jewelry products",
+      "Advanced product catalog management",
+      "Inventory tracking and stock management system",
+      "Secure authentication and role-based access control",
+      "Integrated order and sales management",
+      "Admin dashboard with analytics and reports",
+      "Product image upload and media management",
+      "Responsive UI for seamless user shopping experience"
+    ],
+    "projectOverview": "Mega Jewelers is a full stack e-commerce platform built specifically for jewelry businesses to manage their digital storefront, inventory, and sales operations. The platform enables administrators to manage products, track inventory levels, process customer orders, and monitor business performance through a centralized dashboard. Customers can browse jewelry collections, view product details, and place orders through a clean and intuitive interface. The system ensures secure authentication, efficient product management, and scalable architecture for growing businesses.",
+    "projectKeyFeatures": "Product Catalog Management\nInventory Tracking System\nSecure Authentication and Role-Based Access\nIntegrated Order and Sales Management\nAdmin Dashboard with Analytics\nImage Upload and Media Storage\nResponsive Shopping Interface",
+    "projectTimeLine": "Planning & Requirement Analysis - Understanding e-commerce and jewelry business requirements\nPhase 1 Development - Backend APIs and database schema design\nPhase 2 Development - Frontend UI and product catalog implementation\nPhase 3 Integration - Authentication, order management, and inventory system\nDeployment - Application deployment using Vercel and Render",
+    "projectStandOutFeatures": "Mega Jewelers stands out by combining e-commerce functionality with a powerful inventory and sales management system tailored specifically for jewelry businesses. The platform provides administrators with detailed insights into product performance, inventory levels, and sales activities through a centralized dashboard.",
+    "projectChallenges": "Designing scalable product and inventory database structures\nManaging product images and media efficiently\nImplementing secure authentication and authorization\nHandling complex order and sales workflows\nEnsuring responsive performance across devices",
+    "projectLessonsLearned": "Gained deeper experience building scalable e-commerce platforms\nLearned effective inventory and product management system design\nImproved understanding of secure authentication and role management\nEnhanced frontend architecture for dynamic product displays",
+    "projectFuturePlans": "Add payment gateway integration\nIntroduce advanced product recommendation systems\nImplement real-time inventory alerts\nAdd customer reviews and rating system\nDevelop mobile and desktop application versions",
+    "projectContributors": [
+      {
+        "name": "Gyana prakash Khandual",
+        "role": "Full Stack Developer",
+        "githubProfile": "https://github.com/GyanaprakashKhandual",
+        "linkedinProfile": "https://www.linkedin.com/in/gyanaprakashkhandual/",
+        "email": "gyanprakashkhandual@gmail.com"
+      }
+    ]
+  },
+  {
+    "projectName": "Rr Crop",
+    "projectSlug": "rr-crop",
+    "projectDescription": "A task and resource management platform designed for project allocation, workforce management, and operational tracking with integrated access control and collaboration tools.",
+    "projectType": "Full Stack Web Application",
+    "projectTags": [
+      "Task Management",
+      "Project Management",
+      "Web Development",
+      "Full Stack"
+    ],
+    "projectBackendRepository": "https://github.com/GyanaprakashKhandual/rr-crop-backend",
+    "projectFrontendRepository": "https://github.com/GyanaprakashKhandual/rr-crop-frontend",
+    "projectLiveDemo": "https://rr-crop.vercel.app/",
+    "projectImage": [
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/rrcrop_dashboard.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/rrcrop_tasks.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/rrcrop_projects.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/rrcrop_staff.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/rrcrop_analytics.png"
+    ],
+    "projectTechnologies": [
+      "React",
+      "Next JS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Tailwind CSS",
+      "Cloudinary",
+      "Vercel",
+      "Render"
+    ],
+    "projectFeatures": [
+      "Comprehensive task management system",
+      "Project allocation and tracking across teams",
+      "Workman and staff assignment to specific tasks",
+      "Role-based access control and authentication",
+      "Real-time project progress monitoring",
+      "Interactive dashboards with analytics",
+      "Full CRUD operations for tasks, projects, and staff",
+      "Collaboration features for teams and project managers"
+    ],
+    "projectOverview": "Rr Crop is a full stack task and workforce management platform designed to handle complex project allocations and team coordination. The system enables administrators to create projects, assign tasks, allocate workers, and track project progress in real time. It provides structured management of staff, resources, and project timelines through an intuitive dashboard interface. The platform focuses on improving productivity by providing centralized control over project planning, task distribution, and workforce management while ensuring secure access and scalable performance.",
+    "projectKeyFeatures": "Project Allocation and Management\nTask Scheduling and Tracking\nWorkforce and Staff Assignment\nRole-Based Access Control\nReal-Time Project Monitoring Dashboard\nTeam Collaboration Features\nResource and Task Analytics",
+    "projectTimeLine": "Planning & System Architecture - Requirement gathering and system design\nPhase 1 Development - Backend APIs and database modeling\nPhase 2 Development - Frontend dashboard and task management interface\nPhase 3 Integration - Authentication, staff management, and analytics\nDeployment - Production deployment using Vercel and Render",
+    "projectStandOutFeatures": "Rr Crop stands out by combining project management with workforce allocation in a single platform. The system enables organizations to efficiently distribute work among team members, monitor task progress, and manage resources through centralized dashboards and structured project workflows.",
+    "projectChallenges": "Designing a flexible task allocation structure for large teams\nManaging real-time updates across multiple project workflows\nEnsuring secure access control for different staff roles\nHandling scalable data structures for tasks and workforce management",
+    "projectLessonsLearned": "Improved knowledge of scalable task management architectures\nLearned efficient resource allocation system design\nEnhanced experience building complex dashboards and workflow systems\nGained deeper understanding of authentication and access control models",
+    "projectFuturePlans": "Add real-time notifications for task updates\nIntroduce AI-based task prioritization and scheduling\nImplement detailed performance analytics for teams\nAdd mobile and desktop application versions",
+    "projectContributors": [
+      {
+        "name": "Gyana prakash Khandual",
+        "role": "Full Stack Developer",
+        "githubProfile": "https://github.com/GyanaprakashKhandual",
+        "linkedinProfile": "https://www.linkedin.com/in/gyanaprakashkhandual/",
+        "email": "gyanprakashkhandual@gmail.com"
+      }
+    ]
+  }
+]
