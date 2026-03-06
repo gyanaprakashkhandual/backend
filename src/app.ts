@@ -7,6 +7,7 @@ import projectRoutes from './routes/project.route.js';
 import skillRoutes from './routes/skill.route.js';
 import educationRoutes from './routes/education.route.js';
 import experienceRoutes from './routes/experience.route.js';
+import musicRoutes from './routes/music.route.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -26,6 +27,7 @@ app.use('/api/projects', projectRoutes);
 app.use('/api/skills', skillRoutes);
 app.use('/api/education', educationRoutes);
 app.use('/api/experience', experienceRoutes);
+app.use('/api/music', musicRoutes);
 
 // Health check endpoint
 app.get('/api/health', (req: Request, res: Response) => {
