@@ -9,6 +9,7 @@ export interface IMusic extends Document {
     duration: Number;
     coverImageUrl: String;
     lyrics: String;
+    musicUrl: String;
     createdAt: Date;
     updatedAt: Date;
 }

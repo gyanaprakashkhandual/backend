@@ -8,6 +8,7 @@ const musicSchema = new Schema<IMusic>(
     album: { type: String, required: true },
     genre: { type: String, required: true },
     releaseDate: { type: Date, required: true },
+    musicUrl: { type: String, required: true },
     duration: { type: Number, required: true },
     coverImageUrl: { type: String, required: true },
     lyrics: { type: String },
