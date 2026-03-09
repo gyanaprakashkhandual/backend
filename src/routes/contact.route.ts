@@ -1,5 +1,5 @@
 import { Router, Request, Response } from "express";
-import { sendContactMessage } from "../controllers/contact.controller";
+import { sendContactMessage } from "../controllers/contact.controller.js";
 
 const router = Router();
 

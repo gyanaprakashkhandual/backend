@@ -1,4 +1,4 @@
-import { ContactFormBody } from "../types/contact.type";
+import { ContactFormBody } from "../types/contact.type.js";
 
 // ─── Helper ────────────────────────────────────────────────────────────────────
 function escapeHtml(str: string): string {

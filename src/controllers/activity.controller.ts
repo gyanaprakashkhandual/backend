@@ -1,12 +1,12 @@
 import { Request, Response } from "express";
 import mongoose from "mongoose";
-import Activity from "../models/activity.model";
+import Activity from "../models/activity.model.js";
 import {
   ActivityType,
   LikeMusicBody,
   CommentMusicBody,
   UpdateCommentBody,
-} from "../types/activity.type";
+} from "../types/activity.type.js";
 
 // ─── Helper ───────────────────────────────────────────────────────────────────
 

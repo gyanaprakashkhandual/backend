@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
-import { getTransporter } from "../configs/mail.config";
-import { buildOwnerNotificationMail, buildAutoReplyMail } from "../templates/mail.template";
-import { ContactFormBody } from "../types/contact.type";
+import { getTransporter } from "../configs/mail.config.js";
+import { buildOwnerNotificationMail, buildAutoReplyMail } from "../templates/mail.template.js";
+import { ContactFormBody } from "../types/contact.type.js";
 
 // ─── Basic validators ──────────────────────────────────────────────────────────
 const isValidEmail = (email: string): boolean =>

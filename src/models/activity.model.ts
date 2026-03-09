@@ -1,5 +1,5 @@
 import mongoose, { Schema } from "mongoose";
-import { IActivity, ActivityType } from "../types/activity.type";
+import { IActivity, ActivityType } from "../types/activity.type.js";
 
 // ─── Comment sub-schema ──────────────────────────────────────────────────────
 const CommentSchema = new Schema<IActivity["comment"]>(

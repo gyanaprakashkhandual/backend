@@ -7,7 +7,7 @@ import {
   updateComment,
   deleteComment,
   getAllActivities,
-} from "../controllers/activity.controller";
+} from "../controllers/activity.controller.js";
 
 const router = Router({ mergeParams: true });
 // mergeParams: true  →  inherits :musicId from the parent music router
