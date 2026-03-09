@@ -1,0 +1,64 @@
+import express from 'express';
+import cors from 'cors';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import connectDB from './configs/db.config.js';
+import projectRoutes from './routes/project.route.js';
+import skillRoutes from './routes/skill.route.js';
+import educationRoutes from './routes/education.route.js';
+import experienceRoutes from './routes/experience.route.js';
+import musicRoutes from './routes/music.route.js';
+import userRoutes from './routes/user.route.js';
+import blogRoutes from './routes/blog.route.js';
+import activityRoutes from './routes/activity.route.js';
+import contactRoutes from './routes/contact.route.js';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const app = express();
+connectDB();
+// Middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(cors({
+    origin: "http://localhost:3000",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+}));
+// Serve static files
+app.use(express.static(path.join(__dirname, '../public')));
+// API Routes
+app.use('/api/projects', projectRoutes);
+app.use('/api/skills', skillRoutes);
+app.use('/api/education', educationRoutes);
+app.use('/api/experience', experienceRoutes);
+app.use('/api/music', musicRoutes);
+app.use('/api/user', userRoutes);
+app.use('/api/blogs', blogRoutes);
+app.use('/api/activities', activityRoutes);
+app.use('/api/contact', contactRoutes);
+// Health check endpoint
+app.get('/api/health', (req, res) => {
+    res.status(200).json({
+        success: true,
+        message: 'Server is running successfully',
+        timestamp: new Date().toISOString(),
+    });
+});
+// 404 handler
+app.use((req, res) => {
+    res.status(404).json({
+        success: false,
+        message: 'Route not found',
+        path: req.path,
+    });
+});
+// Error handling middleware
+app.use((err, req, res, next) => {
+    console.error('Error:', err);
+    res.status(err.status || 500).json({
+        success: false,
+        message: err.message || 'Internal Server Error',
+        error: process.env.NODE_ENV === 'development' ? err : {},
+    });
+});
+export default app;
