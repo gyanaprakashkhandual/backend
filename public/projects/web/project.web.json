@@ -237,7 +237,7 @@
       }
     ]
   },
-    {
+  {
     "projectName": "PISL Infra",
     "projectSlug": "pisl-infra",
     "projectDescription": "Comprehensive end-to-end testing infrastructure for the PISL web application including UI, API, performance, and security testing with advanced visualization and reporting.",
@@ -424,7 +424,7 @@
     ]
   },
   {
-    "projectName": "Rr Crop",
+    "projectName": "RR Crop",
     "projectSlug": "rr-crop-testing",
     "projectDescription": "End-to-end testing infrastructure for RrCrop including UI automation, API validation, performance testing, and workflow testing for a complex task and resource management system.",
     "projectType": "Automation & Testing Infrastructure",
@@ -482,6 +482,194 @@
         "githubProfile": "https://github.com/GyanaprakashKhandual",
         "linkedinProfile": "https://www.linkedin.com/in/gyanaprakashkhandual/",
         "email": "gyanprakashkhandual@gmail.com"
+      }
+    ]
+  },
+  {
+    "projectName": "Caffetest Tracker",
+    "projectSlug": "caffetest-tracker",
+    "projectDescription": "A revolutionary VS Code extension that transforms test automation management by automatically capturing test execution results and syncing them with the Caffetest platform, powered by AI to generate test cases and bug reports.",
+    "projectType": "VS Code Extension / AI-Powered Test Management",
+    "projectTags": [
+      "VS Code Extension",
+      "Test Automation",
+      "AI-Powered Testing",
+      "QA Engineering",
+      "Developer Tools"
+    ],
+    "projectRepository": "https://github.com/GyanaprakashKhandual/caffetest-tracker",
+    "projectLiveDemo": "https://caffetest.com",
+    "projectImage": [
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/caffetest_dashboard.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/caffetest_vscode.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/caffetest_ai_reports.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/caffetest_test_history.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/caffetest_sync.png"
+    ],
+    "projectTechnologies": [
+      "VS Code Extension API",
+      "JavaScript",
+      "TypeScript",
+      "Selenium",
+      "Cucumber",
+      "JUnit",
+      "TestNG",
+      "Page Object Model",
+      "REST API",
+      "Google OAuth",
+      "AI/ML Integration"
+    ],
+    "projectFeatures": [
+      "AI-powered automatic test case generation for passed tests",
+      "Automatic bug report generation for failed tests",
+      "Real-time test execution tracking within VS Code",
+      "Zero manual documentation entry required",
+      "Supports Selenium, Cucumber, JUnit, TestNG frameworks",
+      "Smart duplicate detection to prevent redundant test entries",
+      "Instant sync with Caffetest cloud dashboard",
+      "Google OAuth and email-based authentication",
+      "Configurable auto-sync intervals and notification settings",
+      "Visual test history panel with status and trend tracking"
+    ],
+    "projectOverview": "Caffetest Tracker is a VS Code extension that seamlessly bridges your development workspace with the Caffetest web platform. It automatically captures test execution results from Selenium, Cucumber, JUnit, or TestNG test suites and syncs them in real-time with the Caffetest cloud. An advanced AI engine analyzes the results, automatically generating detailed test cases for passed tests and comprehensive bug reports for failures — all without leaving the editor. The extension eliminates tedious manual documentation work, saving up to 70% of documentation time while improving accuracy and team collaboration.",
+    "projectKeyFeatures": "AI-Powered Test Case Generation\nAutomatic Bug Report Creation\nReal-Time Test Execution Tracking\nZero Manual Documentation Entry\nMulti-Framework Support (Selenium, Cucumber, JUnit, TestNG)\nSmart Duplicate Detection\nInstant Cloud Sync\nGoogle OAuth Authentication\nVisual Test History Dashboard\nConfigurable Auto-Sync Settings",
+    "projectTimeLine": "Phase 1 - Extension architecture design and VS Code API integration\nPhase 2 - Authentication system with Google OAuth and email login\nPhase 3 - Test execution capture and result parsing engine\nPhase 4 - AI integration for test case and bug report generation\nPhase 5 - Cloud sync and Caffetest dashboard integration\nExecution - Marketplace publishing, user feedback, and continuous improvement",
+    "projectStandOutFeatures": "The standout feature of Caffetest Tracker is its AI-powered documentation engine that automatically generates professional, standardized test cases and bug reports from test execution results — completely eliminating manual documentation work. Combined with real-time VS Code integration and zero context-switching, it transforms how QA engineers manage their testing workflow.",
+    "projectChallenges": "Building reliable test result parsing across multiple frameworks (Selenium, Cucumber, JUnit, TestNG)\nImplementing smart duplicate detection to avoid redundant test entries\nEnsuring real-time sync performance without impacting VS Code editor performance\nIntegrating AI analysis for accurate and meaningful test case and bug report generation",
+    "projectLessonsLearned": "Deepened expertise in VS Code Extension API development\nGained experience building AI-integrated developer tools\nLearned advanced strategies for multi-framework test result parsing\nImproved skills in OAuth-based authentication and cloud sync architecture",
+    "projectFuturePlans": "Add support for Playwright, Cypress, and Robot Framework\nImplement local caching for offline testing support\nBatch processing for large test suites with 1000+ tests\nOn-premise deployment options for enterprise teams\nVisual regression testing integration\nExpand AI capabilities for flaky test detection and pattern analysis",
+    "projectContributors": [
+      {
+        "name": "Gyana prakash Khandual",
+        "role": "Extension Developer & QA Engineer",
+        "githubProfile": "https://github.com/GyanaprakashKhandual",
+        "linkedinProfile": "https://www.linkedin.com/in/gyanaprakashkhandual/",
+        "email": "gyanaprakashkhandual@gmail.com"
+      }
+    ]
+  },
+  {
+    "projectName": "Selenium-Cucumber Pro",
+    "projectSlug": "selenium-cucumber-pro",
+    "projectDescription": "A professional VS Code extension that intelligently generates Selenium Java step definitions for Cucumber BDD testing, with smart parameter detection, duplicate prevention, and complete professional code formatting.",
+    "projectType": "VS Code Extension / Code Generation Tool",
+    "projectTags": [
+      "VS Code Extension",
+      "Selenium",
+      "Cucumber BDD",
+      "Java Code Generation",
+      "Test Automation"
+    ],
+    "projectRepository": "https://github.com/GyanaprakashKhandual/selenium-cucumber-pro",
+    "projectLiveDemo": "https://marketplace.visualstudio.com/items?itemName=selenium-cucumber-pro",
+    "projectImage": [
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/selenium_cucumber_dashboard.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/selenium_cucumber_generation.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/selenium_cucumber_config.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/selenium_cucumber_output.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/selenium_cucumber_context.png"
+    ],
+    "projectTechnologies": [
+      "VS Code Extension API",
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "Selenium WebDriver",
+      "Cucumber",
+      "TestNG",
+      "JUnit",
+      "Page Object Model",
+      "BDD"
+    ],
+    "projectFeatures": [
+      "Smart parameter detection for quoted strings, numbers, and angle bracket parameters",
+      "Professional Java code generation with proper indentation and formatting",
+      "Complete method templates with try-catch blocks and Selenium patterns",
+      "Intelligent duplicate step detection and unique method naming",
+      "Selection-based and full-file step definition generation",
+      "Context menu integration with right-click options in feature files",
+      "Configurable package names, class names, and framework support (Cucumber, TestNG, JUnit)",
+      "Keyboard shortcuts for quick access to all generation commands",
+      "Clipboard integration for instant code copying",
+      "Built-in code snippets for Given, When, Then step templates and Page Object Model"
+    ],
+    "projectOverview": "Selenium-Cucumber Pro is a VS Code extension designed to eliminate the repetitive boilerplate work of writing Selenium Java step definitions for Cucumber BDD feature files. It intelligently parses Cucumber feature files and generates professional, well-structured Java code complete with proper annotations, try-catch error handling, parameter detection, and Selenium WebDriver patterns. Engineers can generate step definitions from their entire feature file or from selected text, with the output instantly copied to clipboard. The extension supports multiple frameworks including Cucumber, TestNG, and JUnit, and provides extensive configuration options for package naming, code style, and import management.",
+    "projectKeyFeatures": "Smart Cucumber Step Parser\nAutomatic Java Step Definition Generation\nSmart Parameter Detection (Strings, Numbers, Angle Brackets)\nDuplicate Step Prevention\nMultiple Framework Support (Cucumber, TestNG, JUnit)\nContext Menu & Keyboard Shortcut Integration\nCustomizable Package and Class Configuration\nPage Object Model Template Generation\nComplete Try-Catch Error Handling Templates\nClipboard Auto-Copy Integration",
+    "projectTimeLine": "Phase 1 - Feature file parsing engine and step pattern recognition\nPhase 2 - Java code generation with parameter detection and formatting\nPhase 3 - VS Code integration with command palette, status bar, and context menus\nPhase 4 - Configuration system for package names, frameworks, and code style\nPhase 5 - Duplicate detection, code snippets, and keyboard shortcuts\nExecution - VS Code Marketplace publishing and ongoing community support",
+    "projectStandOutFeatures": "The standout feature of Selenium-Cucumber Pro is its intelligent parameter detection engine that automatically identifies quoted strings, numeric values, and angle bracket parameters in Cucumber steps and converts them into the correct Java regex patterns and method parameters. Combined with smart duplicate prevention and step-type-aware code templates (Given for setup, When for actions, Then for assertions), it generates production-ready Java code that engineers can use directly without modification.",
+    "projectChallenges": "Building a reliable Cucumber step parser that handles diverse and complex step writing styles\nGenerating syntactically valid Java method names from natural language step descriptions\nImplementing intelligent duplicate detection across large feature files with similar steps\nSupporting multiple testing frameworks (Cucumber, TestNG, JUnit) within a single generation pipeline",
+    "projectLessonsLearned": "Advanced understanding of VS Code Extension API and context menu integration\nDeepened expertise in regex-based natural language parsing for code generation\nImproved knowledge of Java code structure, annotations, and Selenium WebDriver patterns\nGained experience publishing and maintaining extensions on the VS Code Marketplace",
+    "projectFuturePlans": "Add support for additional languages beyond Java (Python, JavaScript, TypeScript)\nIntegrate with Playwright and Cypress step definition generation\nAdd AI-powered step suggestion based on existing test patterns\nBuild a visual step mapping UI for complex feature files\nSupport for Gherkin scenario outline and data table parameter generation",
+    "projectContributors": [
+      {
+        "name": "Gyana prakash Khandual",
+        "role": "VS Code Extension Developer & QA Engineer",
+        "githubProfile": "https://github.com/GyanaprakashKhandual",
+        "linkedinProfile": "https://www.linkedin.com/in/gyanaprakashkhandual/",
+        "email": "gyanaprakashkhandual@gmail.com"
+      }
+    ]
+  },
+  {
+    "projectName": "OccuSearch Testing",
+    "projectSlug": "occusearch-testing",
+    "projectDescription": "Comprehensive quality assurance project for OccuSearch — an Australian PR migration assistant mobile app — covering manual functional testing, REST Assured API testing, and Grafana-based performance testing to ensure reliability of occupation search, points calculator, visa fees estimator, and EOI statistics features.",
+    "projectType": "Manual Testing, API Testing & Performance Testing",
+    "projectTags": [
+      "Manual Testing",
+      "API Testing",
+      "Performance Testing",
+      "Mobile App Testing",
+      "QA Engineering"
+    ],
+    "projectRepository": "https://github.com/GyanaprakashKhandual/occusearch-testing",
+    "projectLiveDemo": "https://www.aussizzgroup.com/occusearch/",
+    "projectImage": [
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/occusearch_testing_dashboard.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/occusearch_manual_testing.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/occusearch_rest_assured.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/occusearch_grafana_performance.png",
+      "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/occusearch_bug_reports.png"
+    ],
+    "projectTechnologies": [
+      "REST Assured",
+      "Java",
+      "TestNG",
+      "Grafana",
+      "Grafana k6",
+      "Manual Testing",
+      "Postman",
+      "JSON",
+      "ANZSCO API",
+      "Google Sheets",
+      "JIRA"
+    ],
+    "projectFeatures": [
+      "Manual functional testing of ANZSCO occupation search workflows",
+      "Manual validation of Australia PR points calculator logic and eligibility classifications",
+      "Manual testing of visa fees estimator across individual and family scenarios",
+      "Manual verification of EOI statistics data accuracy (submitted, lodged, held, invited)",
+      "REST Assured API testing for occupation search, points calculator, and visa fees endpoints",
+      "API response validation including status codes, response schemas, and data accuracy",
+      "Performance testing using Grafana k6 for load, stress, and spike testing",
+      "Grafana dashboards for real-time performance monitoring and trend analysis",
+      "Bug reporting and defect lifecycle management using JIRA",
+      "Test case documentation and traceability matrix using Google Sheets"
+    ],
+    "projectOverview": "OccuSearch is a mobile application developed by Aussizz Migration & Education Consultants PTY LTD, designed to help skilled professionals explore Australian PR migration pathways. The app provides ANZSCO occupation search, Australia PR points calculation, visa fees estimation, state nomination pathways, EOI statistics, CRICOS course discovery, and labour market insights. This testing project delivers a full QA strategy covering manual functional testing of all core app features, REST Assured-based API testing to validate backend service accuracy and reliability, and Grafana k6 performance testing to ensure the app scales under real-world user loads. The goal is to guarantee that skilled professionals receive accurate, reliable, and responsive information when making critical immigration decisions.",
+    "projectKeyFeatures": "Manual Functional Testing of Core Mobile Workflows\nANZSCO Occupation Search Validation\nPR Points Calculator Logic Testing\nVisa Fees Estimator Accuracy Testing\nEOI Statistics Data Verification\nREST Assured API Automation Testing\nAPI Schema and Response Validation\nGrafana k6 Load and Stress Testing\nReal-Time Performance Monitoring via Grafana Dashboards\nDefect Tracking and Bug Lifecycle Management",
+    "projectTimeLine": "Phase 1 - Test planning, requirement analysis, and test case design for all app features\nPhase 2 - Manual functional testing of occupation search, points calculator, visa fees estimator, and EOI statistics\nPhase 3 - REST Assured API test suite development for all backend service endpoints\nPhase 4 - API response validation including schema checks, data accuracy, and edge case testing\nPhase 5 - Grafana k6 performance test script development for load, stress, and spike scenarios\nExecution - Performance test execution, Grafana dashboard monitoring, defect reporting, and regression cycles",
+    "projectStandOutFeatures": "The standout aspect of this testing project is the combination of domain-specific manual testing for immigration-critical data accuracy and REST Assured API validation ensuring that ANZSCO occupation data, PR points calculations, and visa fee estimates are consistently accurate and contract-compliant. Paired with Grafana k6 performance testing that simulates concurrent user loads reflecting real migration season traffic spikes, this QA strategy ensures both correctness and scalability for an app where data accuracy directly impacts users' life decisions.",
+    "projectChallenges": "Validating dynamic ANZSCO occupation data accuracy against frequently updated Australian Home Affairs immigration policies\nTesting complex PR points calculation logic across multiple eligibility classification tiers (high eligibility, conditions applied, not eligible)\nSimulating realistic concurrent user load patterns during peak migration seasons using Grafana k6\nEnsuring API response consistency across occupation search, state nomination, EOI statistics, and visa fees endpoints",
+    "projectLessonsLearned": "Deepened expertise in REST Assured for Java-based API test automation and response schema validation\nGained hands-on experience with Grafana k6 for performance scripting and Grafana dashboards for real-time monitoring\nDeveloped domain knowledge in Australian PR migration workflows, ANZSCO classifications, and visa types\nImproved skills in designing test cases for data-driven applications where accuracy is business-critical",
+    "projectFuturePlans": "Integrate REST Assured API tests into a CI/CD pipeline for continuous backend validation\nExpand performance testing to include soak testing and endurance scenarios for sustained user traffic\nAdd mobile UI automation testing using Appium for Android and iOS platforms\nImplement contract testing between frontend and backend services using Pact\nBuild automated ANZSCO data accuracy checks against official Home Affairs data feeds",
+    "projectContributors": [
+      {
+        "name": "Gyana prakash Khandual",
+        "role": "QA Engineer — Manual, API & Performance Testing",
+        "githubProfile": "https://github.com/GyanaprakashKhandual",
+        "linkedinProfile": "https://www.linkedin.com/in/gyanaprakashkhandual/",
+        "email": "gyanaprakashkhandual@gmail.com"
       }
     ]
   }

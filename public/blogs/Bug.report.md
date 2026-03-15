@@ -25,6 +25,14 @@ This guide will walk you through the anatomy of a perfect bug report — why eac
 
 ---
 
+## Starting with a Template
+Before we dive into the details, let's look at a simple template that you can use for every bug report. This template is designed to capture all the critical information developers need to understand, reproduce, and fix the issue efficiently.
+---
+| BUG ID | BUG Module | BUG Type | Bug Description | Bug Requirement Reference Link | Priority | Status | Development Comment |
+|--------|------------|----------|-----------------|-------------------------------|----------|--------|---------------------|
+|        |            |          |                 |                               |          |        |                     |
+---
+
 ## Why Bug Reports Matter More Than You Think
 
 A bug report is not just a task ticket. It is a **communication bridge** between the tester and the developer. When written poorly, it creates:
