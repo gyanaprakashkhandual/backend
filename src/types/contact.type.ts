@@ -1,17 +1,15 @@
-// ─── Request body ─────────────────────────────────────────────────────────────
 export interface ContactFormBody {
-  name:    string;
-  email:   string;
+  name: string;
+  email: string;
   subject: string;
   message: string;
 }
 
-// ─── Mail options shape ────────────────────────────────────────────────────────
 export interface MailOptions {
-  from:    string;
-  to:      string;
+  from: string;
+  to: string;
   replyTo: string;
   subject: string;
-  html:    string;
-  text:    string;
+  html: string;
+  text: string;
 }

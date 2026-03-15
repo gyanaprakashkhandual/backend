@@ -44,7 +44,7 @@ router.get("/stream/:stream", (req: Request, res: Response) => {
     );
     const data = fs.readFileSync(filePath, "utf-8");
     const educationData = JSON.parse(data);
-    const stream  = req.params.stream as string;
+    const stream = req.params.stream as string;
 
     const filteredEducation = educationData.education.filter(
       (edu: any) => edu.stream.toLowerCase() === stream.toLowerCase(),
@@ -84,11 +84,10 @@ router.get("/institution/:institution", (req: Request, res: Response) => {
     );
     const data = fs.readFileSync(filePath, "utf-8");
     const educationData = JSON.parse(data);
-    const  institution  = req.params.institution as string;
+    const institution = req.params.institution as string;
 
     const filteredEducation = educationData.education.filter(
-      (edu: any) =>
-        edu.institution.toLowerCase() === institution.toLowerCase(),
+      (edu: any) => edu.institution.toLowerCase() === institution.toLowerCase(),
     );
 
     if (filteredEducation.length === 0) {

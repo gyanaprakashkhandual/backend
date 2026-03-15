@@ -1,6 +1,5 @@
 import { ContactFormBody } from "../types/contact.type.js";
 
-// ─── Helper ────────────────────────────────────────────────────────────────────
 function escapeHtml(str: string): string {
   return str
     .replace(/&/g, "&amp;")
@@ -10,14 +9,17 @@ function escapeHtml(str: string): string {
     .replace(/'/g, "&#039;");
 }
 
-// ─── 1. Email YOU receive when someone fills the contact form ──────────────────
 export function buildOwnerNotificationMail(data: ContactFormBody) {
   const { name, email, subject, message } = data;
-  const safeName    = escapeHtml(name);
-  const safeEmail   = escapeHtml(email);
+  const safeName = escapeHtml(name);
+  const safeEmail = escapeHtml(email);
   const safeSubject = escapeHtml(subject);
   const safeMessage = escapeHtml(message).replace(/\n/g, "<br/>");
-  const receivedAt  = new Date().toLocaleString("en-US", { timeZone: "UTC", dateStyle: "full", timeStyle: "short" });
+  const receivedAt = new Date().toLocaleString("en-US", {
+    timeZone: "UTC",
+    dateStyle: "full",
+    timeStyle: "short",
+  });
 
   const html = `
 <!DOCTYPE html>
@@ -112,12 +114,11 @@ export function buildOwnerNotificationMail(data: ContactFormBody) {
   return { html, text };
 }
 
-// ─── 2. Auto-reply email sent TO the visitor ───────────────────────────────────
 export function buildAutoReplyMail(data: ContactFormBody, ownerName: string) {
   const { name, subject } = data;
-  const safeName    = escapeHtml(name);
+  const safeName = escapeHtml(name);
   const safeSubject = escapeHtml(subject);
-  const safeOwner   = escapeHtml(ownerName);
+  const safeOwner = escapeHtml(ownerName);
 
   const html = `
 <!DOCTYPE html>

@@ -1,29 +1,27 @@
-import express, { Router } from 'express';
+import { Router } from "express";
 import {
-  getAllMusic,
-  getMusicById,
-  createMusic,
-  updateMusic,
-  deleteMusic,
-} from '../controllers/music.controller.js';
+  getAllMusic, getMusicById, createMusic, updateMusic, deleteMusic,
+  toggleLike, getLikes,
+  addComment, getComments, updateComment, deleteComment,
+} from "../controllers/music.controller.js";
 
+const router = Router();
 
-const router: Router = express.Router();
+// ─── Music CRUD ───────────────────────────────────────────────────────────────
+router.get("/",    getAllMusic);
+router.get("/:id", getMusicById);
+router.post("/",   createMusic);
+router.put("/:id", updateMusic);
+router.delete("/:id", deleteMusic);
 
+// ─── Likes ────────────────────────────────────────────────────────────────────
+router.post("/:id/like",  toggleLike);  // body: { userId }
+router.get("/:id/likes",  getLikes);    // query: ?userId
 
-// GET /api/music
-router.get('/', getAllMusic);
-
-// GET /api/music/:id
-router.get('/:id',  getMusicById);
-
-// POST /api/music
-router.post('/',  createMusic);
-
-// PUT /api/music/:id
-router.put('/:id',updateMusic);
-
-// DELETE /api/music/:id
-router.delete('/:id',  deleteMusic);
+// ─── Comments ─────────────────────────────────────────────────────────────────
+router.post("/:id/comments",               addComment);    // body: { userId, text }
+router.get("/:id/comments",                getComments);   // query: ?page&limit
+router.patch("/:id/comments/:commentId",   updateComment); // body: { userId, text }
+router.delete("/:id/comments/:commentId",  deleteComment); // query: ?userId
 
 export default router;

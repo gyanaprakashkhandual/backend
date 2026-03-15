@@ -10,7 +10,7 @@ coverImage: /images/intro-testing.jpg
 
 # How to Write a Perfect Bug Report: A Beginner's Guide
 
-> *"A bug report is only as good as the information it contains. A vague report wastes everyone's time — a precise one saves the entire sprint."*
+> _"A bug report is only as good as the information it contains. A vague report wastes everyone's time — a precise one saves the entire sprint."_
 > — From 10 years in the QA trenches
 
 ---
@@ -26,11 +26,13 @@ This guide will walk you through the anatomy of a perfect bug report — why eac
 ---
 
 ## Starting with a Template
-Before we dive into the details, let's look at a simple template that you can use for every bug report. This template is designed to capture all the critical information developers need to understand, reproduce, and fix the issue efficiently.
----
+
+## Before we dive into the details, let's look at a simple template that you can use for every bug report. This template is designed to capture all the critical information developers need to understand, reproduce, and fix the issue efficiently.
+
 | BUG ID | BUG Module | BUG Type | Bug Description | Bug Requirement Reference Link | Priority | Status | Development Comment |
-|--------|------------|----------|-----------------|-------------------------------|----------|--------|---------------------|
-|        |            |          |                 |                               |          |        |                     |
+| ------ | ---------- | -------- | --------------- | ------------------------------ | -------- | ------ | ------------------- |
+|        |            |          |                 |                                |          |        |                     |
+
 ---
 
 ## Why Bug Reports Matter More Than You Think
@@ -59,6 +61,7 @@ Below is the complete template I've refined over years of testing. Each field is
 **Why it matters:** Bug IDs allow teams to reference, link, and track issues without ambiguity. When a developer says "fixed in BUG-1042," everyone knows exactly what was resolved.
 
 **Example:**
+
 ```
 Bug ID: BUG-1042
 ```
@@ -73,20 +76,21 @@ Bug ID: BUG-1042
 
 **Common Bug Types:**
 
-| Type | Description |
-|------|-------------|
-| **Functional** | The feature does not work as intended |
-| **UI / Visual** | Layout, alignment, color, or styling issues |
-| **Performance** | Slowness, lag, or excessive resource usage |
-| **Security** | Vulnerabilities, data exposure, or access control issues |
-| **Usability** | Poor user experience, confusing flows |
-| **Compatibility** | Issues on specific browsers, OS, or devices |
-| **Data / Validation** | Incorrect data processing or missing input validation |
-| **Crash / Blocker** | Application crashes or becomes completely unusable |
+| Type                  | Description                                              |
+| --------------------- | -------------------------------------------------------- |
+| **Functional**        | The feature does not work as intended                    |
+| **UI / Visual**       | Layout, alignment, color, or styling issues              |
+| **Performance**       | Slowness, lag, or excessive resource usage               |
+| **Security**          | Vulnerabilities, data exposure, or access control issues |
+| **Usability**         | Poor user experience, confusing flows                    |
+| **Compatibility**     | Issues on specific browsers, OS, or devices              |
+| **Data / Validation** | Incorrect data processing or missing input validation    |
+| **Crash / Blocker**   | Application crashes or becomes completely unusable       |
 
 **Why it matters:** Categorizing bugs helps teams triage and assign work to the right people faster. A UI bug goes to a frontend developer; a security bug might escalate to a security team.
 
 **Example:**
+
 ```
 Bug Type: Functional
 ```
@@ -100,6 +104,7 @@ Bug Type: Functional
 **Why it matters:** Applications often have dozens of modules. Specifying the module helps developers and project managers filter bugs by area, understand hotspots, and assign ownership correctly.
 
 **Examples:**
+
 ```
 Module Name: User Authentication — Login Page
 Module Name: Checkout Flow — Payment Gateway
@@ -124,6 +129,7 @@ Module Name: Profile Settings — Avatar Upload
 **Why it matters:** This is the heart of the bug report. A developer should be able to read this and understand the problem without needing any prior context.
 
 **What to include:**
+
 - Steps to reproduce (numbered, step-by-step)
 - Actual result (what the system did)
 - Expected result (what the system should have done)
@@ -165,7 +171,7 @@ Environment:
 
 **Why it matters:** This is something many junior testers overlook, but it's critically important. A bug doesn't exist in isolation — it's a deviation from a defined expectation. Linking the bug to its requirement:
 
-- Justifies *why* it's a bug (not just an opinion)
+- Justifies _why_ it's a bug (not just an opinion)
 - Helps developers understand the intended behavior
 - Provides context for product managers to assess impact
 - Supports traceability in regulated or compliance-heavy environments
@@ -176,8 +182,8 @@ Environment:
 Bug Requirement Description:
 
 As per User Story US-204 (Sprint 12):
-"When a user enters an incorrect password during login, the system 
-shall display an inline validation error message without redirecting 
+"When a user enters an incorrect password during login, the system
+shall display an inline validation error message without redirecting
 the user away from the login page."
 
 Acceptance Criteria (AC-3):
@@ -188,7 +194,7 @@ Current behavior violates AC-3 by redirecting to a 500 error page
 instead of handling the validation gracefully on the same page.
 ```
 
-> **Pro Tip:** If there's no formal requirement documented, write what the expected behavior *should* logically be based on standard UX conventions or product behavior in similar flows. This still gives developers a target to code towards.
+> **Pro Tip:** If there's no formal requirement documented, write what the expected behavior _should_ logically be based on standard UX conventions or product behavior in similar flows. This still gives developers a target to code towards.
 
 ---
 
@@ -200,14 +206,14 @@ instead of handling the validation gracefully on the same page.
 
 **What to attach or link:**
 
-| Reference Type | Description |
-|----------------|-------------|
-| 📸 Screenshot | A snapshot of the bug as it appeared on screen |
-| 🎥 Screen Recording | A video showing the exact reproduction steps |
-| 📄 Log File | Console errors, server logs, or network response logs |
-| 📑 Requirements Doc | Link to the related user story, PRD, or spec |
-| 🌐 Staging/Prod URL | Direct URL to the affected page or feature |
-| 🧪 Test Case Link | Link to the test case this bug was found in |
+| Reference Type      | Description                                           |
+| ------------------- | ----------------------------------------------------- |
+| 📸 Screenshot       | A snapshot of the bug as it appeared on screen        |
+| 🎥 Screen Recording | A video showing the exact reproduction steps          |
+| 📄 Log File         | Console errors, server logs, or network response logs |
+| 📑 Requirements Doc | Link to the related user story, PRD, or spec          |
+| 🌐 Staging/Prod URL | Direct URL to the affected page or feature            |
+| 🧪 Test Case Link   | Link to the test case this bug was found in           |
 
 **Example:**
 
@@ -232,14 +238,15 @@ Reference Links:
 
 **Priority Levels:**
 
-| Priority | Meaning | Example |
-|----------|---------|---------|
-| 🔴 **Critical** | Blocks core functionality; system is unusable. Must fix immediately. | Users cannot log in at all |
-| 🟠 **High** | Major feature is broken; significant user impact. Fix in current sprint. | Payment fails for 30% of users |
-| 🟡 **Medium** | Feature partially works or workaround exists. Fix in next sprint. | Filter on search results returns wrong order |
-| 🟢 **Low** | Minor cosmetic or edge-case issue. Fix when time permits. | Button padding is 2px off on mobile |
+| Priority        | Meaning                                                                  | Example                                      |
+| --------------- | ------------------------------------------------------------------------ | -------------------------------------------- |
+| 🔴 **Critical** | Blocks core functionality; system is unusable. Must fix immediately.     | Users cannot log in at all                   |
+| 🟠 **High**     | Major feature is broken; significant user impact. Fix in current sprint. | Payment fails for 30% of users               |
+| 🟡 **Medium**   | Feature partially works or workaround exists. Fix in next sprint.        | Filter on search results returns wrong order |
+| 🟢 **Low**      | Minor cosmetic or edge-case issue. Fix when time permits.                | Button padding is 2px off on mobile          |
 
 **Example:**
+
 ```
 Priority: High
 ```
@@ -256,22 +263,23 @@ Priority: High
 
 **Common Bug Status Values:**
 
-| Status | Meaning |
-|--------|---------|
-| **New** | Bug has been reported and not yet reviewed |
-| **Open** | Bug has been acknowledged and is in the backlog |
-| **In Progress** | A developer is actively working on the fix |
-| **Fixed** | Developer has applied a fix and deployed to staging |
-| **Ready for Testing** | Awaiting QA verification |
-| **Verified** | QA has confirmed the fix works as expected |
-| **Closed** | Bug is resolved and verified in the target environment |
-| **Reopened** | Bug reappeared after being marked Fixed/Closed |
-| **Cannot Reproduce** | Dev team was unable to replicate the issue |
-| **Deferred** | Fix has been postponed to a future sprint or release |
-| **Duplicate** | This bug has already been reported elsewhere |
-| **Won't Fix** | The team has decided not to address this issue |
+| Status                | Meaning                                                |
+| --------------------- | ------------------------------------------------------ |
+| **New**               | Bug has been reported and not yet reviewed             |
+| **Open**              | Bug has been acknowledged and is in the backlog        |
+| **In Progress**       | A developer is actively working on the fix             |
+| **Fixed**             | Developer has applied a fix and deployed to staging    |
+| **Ready for Testing** | Awaiting QA verification                               |
+| **Verified**          | QA has confirmed the fix works as expected             |
+| **Closed**            | Bug is resolved and verified in the target environment |
+| **Reopened**          | Bug reappeared after being marked Fixed/Closed         |
+| **Cannot Reproduce**  | Dev team was unable to replicate the issue             |
+| **Deferred**          | Fix has been postponed to a future sprint or release   |
+| **Duplicate**         | This bug has already been reported elsewhere           |
+| **Won't Fix**         | The team has decided not to address this issue         |
 
 **Example:**
+
 ```
 Status: Open
 ```
@@ -285,6 +293,7 @@ Status: Open
 **Why it matters:** Developer comments close the feedback loop. They keep the QA team informed about the root cause, the nature of the fix, any related areas that may be affected, and any clarifications needed from the tester.
 
 **What developers typically note here:**
+
 - Root cause analysis
 - Files or components modified as part of the fix
 - Deployment details (which build, which environment)
@@ -297,11 +306,11 @@ Status: Open
 Developer Comment:
 
 [John Doe — Dev Lead | 2025-01-16]
-Root cause identified: The error handler in auth.service.ts was not 
-catching 401 Unauthorized responses correctly, causing unhandled 
+Root cause identified: The error handler in auth.service.ts was not
+catching 401 Unauthorized responses correctly, causing unhandled
 exceptions to bubble up to the global error handler and trigger a 500 page.
 
-Fix applied: Added explicit 401 catch block in the login API call 
+Fix applied: Added explicit 401 catch block in the login API call
 with proper inline error state management.
 
 Files changed:
@@ -310,7 +319,7 @@ Files changed:
 
 Deployed to staging: Build #482
 Please verify on staging before closing.
-Note: Also recommend retesting the "Forgot Password" flow as it uses 
+Note: Also recommend retesting the "Forgot Password" flow as it uses
 a similar error handling pattern.
 ```
 
@@ -340,7 +349,7 @@ Bug Description:
   Application redirects to a blank "500 Internal Server Error" page.
 
   Expected Result:
-  An inline error message "Incorrect password. Please try again." 
+  An inline error message "Incorrect password. Please try again."
   should appear below the password field.
 
   Environment: Chrome v120 | Windows 11 | App v3.4.1
@@ -357,7 +366,7 @@ Reference Links:
 
 Developer Comment:
   [John Doe | 2025-01-16]
-  Fixed 401 error handler in auth.service.ts. Deployed to staging 
+  Fixed 401 error handler in auth.service.ts. Deployed to staging
   (Build #482). Please retest and also verify Forgot Password flow.
 ```
 
@@ -415,4 +424,4 @@ Happy testing. 🐛
 
 ---
 
-*Written by Gyana Prakash Khandual — Manual QA Engineer with 10+ years of experience in functional testing, test case design, and quality assurance across web and mobile platforms.*
+_Written by Gyana Prakash Khandual — Manual QA Engineer with 10+ years of experience in functional testing, test case design, and quality assurance across web and mobile platforms._

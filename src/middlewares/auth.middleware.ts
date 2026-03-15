@@ -3,7 +3,11 @@ import jwt, { JwtPayload } from "jsonwebtoken";
 
 const JWT_SECRET = process.env.JWT_SECRET as string;
 
-export const protect = (req: Request, res: Response, next: NextFunction): void => {
+export const protect = (
+  req: Request,
+  res: Response,
+  next: NextFunction,
+): void => {
   const authHeader = req.headers.authorization;
 
   if (!authHeader || !authHeader.startsWith("Bearer ")) {
@@ -15,7 +19,7 @@ export const protect = (req: Request, res: Response, next: NextFunction): void =
 
   try {
     const decoded = jwt.verify(token, JWT_SECRET) as JwtPayload;
-    (req as any).user = decoded;  // { username, iat, exp }
+    (req as any).user = decoded;
     next();
   } catch (err) {
     res.status(401).json({ message: "Token is invalid or expired." });

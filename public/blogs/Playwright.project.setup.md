@@ -1,5 +1,4 @@
 ---
-
 slug: designing-a-playwright-automation-framework-for-enterprise-applications
 title: How to Design a Playwright Automation Framework for Enterprise Applications
 description: Learn how to design a robust UI automation framework using Playwright, TypeScript, and Cucumber (BDD). This guide provides a comprehensive approach to building a scalable and maintainable test suite for large-scale enterprise applications.
@@ -7,8 +6,8 @@ author: Gyana prakash Khandual
 date: 2026-03-14
 tags: [testing, beginner, qa]
 coverImage: /images/intro-testing.jpg
-
 ---
+
 # Enterprise Playwright Automation Framework
 
 A production-grade test automation framework built with Playwright, TypeScript, Cucumber (BDD), and Allure Reporting. Designed to support large-scale enterprise applications with 300+ APIs and complex UI frontend workflows.

@@ -10,19 +10,17 @@ const router: Router = express.Router();
 
 const BLOGS_DIR = path.join(__dirname, "../../public/blogs");
 
-// Parse a single .md file into { meta, content }
 const parseMdFile = (filePath: string) => {
   const raw = fs.readFileSync(filePath, "utf-8");
-  const { data, content } = matter(raw); // splits frontmatter + body
+  const { data, content } = matter(raw);
   return { meta: data, content };
 };
 
-// GET /api/blogs — all blogs (meta only, no content)
 router.get("/", (req: Request, res: Response) => {
   try {
-    const files = fs.readdirSync(BLOGS_DIR).filter(f => f.endsWith(".md"));
+    const files = fs.readdirSync(BLOGS_DIR).filter((f) => f.endsWith(".md"));
 
-    const blogs = files.map(file => {
+    const blogs = files.map((file) => {
       const { meta } = parseMdFile(path.join(BLOGS_DIR, file));
       return {
         slug: meta.slug ?? file.replace(".md", ""),
@@ -36,8 +34,9 @@ router.get("/", (req: Request, res: Response) => {
       };
     });
 
-    // Sort by date descending
-    blogs.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    blogs.sort(
+      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+    );
 
     res.status(200).json({
       success: true,
@@ -47,26 +46,31 @@ router.get("/", (req: Request, res: Response) => {
     });
   } catch (error) {
     const msg = error instanceof Error ? error.message : "Unknown error";
-    res.status(500).json({ success: false, message: "Error fetching blogs", error: msg });
+    res
+      .status(500)
+      .json({ success: false, message: "Error fetching blogs", error: msg });
   }
 });
 
-// GET /api/blogs/:slug — single blog WITH full markdown content
 router.get("/:slug", (req: Request, res: Response) => {
   try {
     const { slug } = req.params;
-    const files = fs.readdirSync(BLOGS_DIR).filter(f => f.endsWith(".md"));
+    const files = fs.readdirSync(BLOGS_DIR).filter((f) => f.endsWith(".md"));
 
-    // Match by slug in frontmatter OR by filename
     let matched: string | null = null;
     for (const file of files) {
       const { meta } = parseMdFile(path.join(BLOGS_DIR, file));
       const fileSlug = meta.slug ?? file.replace(".md", "");
-      if (fileSlug === slug) { matched = file; break; }
+      if (fileSlug === slug) {
+        matched = file;
+        break;
+      }
     }
 
     if (!matched) {
-      return res.status(404).json({ success: false, message: `Blog '${slug}' not found` });
+      return res
+        .status(404)
+        .json({ success: false, message: `Blog '${slug}' not found` });
     }
 
     const { meta, content } = parseMdFile(path.join(BLOGS_DIR, matched));
@@ -82,12 +86,14 @@ router.get("/:slug", (req: Request, res: Response) => {
         date: meta.date ?? "",
         tags: meta.tags ?? [],
         coverImage: meta.coverImage ?? null,
-        content, // raw markdown string — frontend renders this
+        content,
       },
     });
   } catch (error) {
     const msg = error instanceof Error ? error.message : "Unknown error";
-    res.status(500).json({ success: false, message: "Error fetching blog", error: msg });
+    res
+      .status(500)
+      .json({ success: false, message: "Error fetching blog", error: msg });
   }
 });
 

@@ -7,7 +7,9 @@ date: 2026-03-14
 tags: [testing, beginner, qa]
 coverImage: /images/intro-testing.jpg
 ---
+
 # REST Assured API Automation Framework
+
 ## Integrated with Cucumber, Java, Maven, and Extent Reports
 
 A professional, scalable, and maintainable API test automation framework built for testing large-scale backend applications with 300+ APIs. This guide covers every layer from project setup to CI/CD integration, following industry-tested best practices as of 2026.
@@ -65,22 +67,22 @@ The architecture follows a layered approach where each layer has a single respon
 
 ## 2. Technology Stack
 
-| Component | Tool | Version (2026) |
-|-----------|------|----------------|
-| Language | Java | 21 LTS |
-| Build Tool | Maven | 3.9.x |
-| API Testing | REST Assured | 5.5.0 |
-| BDD Layer | Cucumber | 7.20.1 |
-| Test Runner | JUnit 5 | 5.11.x |
-| Reporting | Extent Reports | 5.1.2 |
-| Logging | Log4j2 | 2.23.x |
-| Assertions | AssertJ | 3.26.x |
-| JSON Parsing | Jackson | 2.18.x |
-| Schema Validation | JSON Schema Validator | 5.5.0 |
-| Fake Test Data | JavaFaker | 1.0.2 |
-| Database | JDBC / Spring JDBC | 6.x |
-| Config Management | Owner | 1.0.12 |
-| HTTP Client | Apache HttpClient 5 | 5.3.x |
+| Component         | Tool                  | Version (2026) |
+| ----------------- | --------------------- | -------------- |
+| Language          | Java                  | 21 LTS         |
+| Build Tool        | Maven                 | 3.9.x          |
+| API Testing       | REST Assured          | 5.5.0          |
+| BDD Layer         | Cucumber              | 7.20.1         |
+| Test Runner       | JUnit 5               | 5.11.x         |
+| Reporting         | Extent Reports        | 5.1.2          |
+| Logging           | Log4j2                | 2.23.x         |
+| Assertions        | AssertJ               | 3.26.x         |
+| JSON Parsing      | Jackson               | 2.18.x         |
+| Schema Validation | JSON Schema Validator | 5.5.0          |
+| Fake Test Data    | JavaFaker             | 1.0.2          |
+| Database          | JDBC / Spring JDBC    | 6.x            |
+| Config Management | Owner                 | 1.0.12         |
+| HTTP Client       | Apache HttpClient 5   | 5.3.x          |
 
 ---
 
@@ -1981,21 +1983,21 @@ name: API Automation Tests
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [main, develop]
   pull_request:
-    branches: [ main ]
+    branches: [main]
   schedule:
-    - cron: '0 */6 * * *'    # Run every 6 hours
+    - cron: "0 */6 * * *" # Run every 6 hours
   workflow_dispatch:
     inputs:
       environment:
-        description: 'Target environment (dev/qa/staging)'
+        description: "Target environment (dev/qa/staging)"
         required: true
-        default: 'qa'
+        default: "qa"
       tags:
-        description: 'Cucumber tags to run (e.g. @smoke)'
+        description: "Cucumber tags to run (e.g. @smoke)"
         required: false
-        default: '@smoke'
+        default: "@smoke"
 
 jobs:
   api-tests:
@@ -2009,9 +2011,9 @@ jobs:
       - name: Set up Java 21
         uses: actions/setup-java@v4
         with:
-          java-version: '21'
-          distribution: 'temurin'
-          cache: 'maven'
+          java-version: "21"
+          distribution: "temurin"
+          cache: "maven"
 
       - name: Cache Maven packages
         uses: actions/cache@v4
@@ -2253,4 +2255,4 @@ This framework template is intended for internal use and customization. Adapt it
 
 ---
 
-*Last updated: 2026. Maintained by the Backend QA Automation Team.*
+_Last updated: 2026. Maintained by the Backend QA Automation Team._

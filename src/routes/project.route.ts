@@ -1,63 +1,71 @@
-import express, { Request, Response, Router } from 'express';
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import express, { Request, Response, Router } from "express";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const router: Router = express.Router();
 
-// GET all projects
-router.get('/', (req: Request, res: Response) => {
+router.get("/", (req: Request, res: Response) => {
   try {
-    const filePath = path.join(__dirname, '../../public/projects/web/project.web.json');
-    const data = fs.readFileSync(filePath, 'utf-8');
+    const filePath = path.join(
+      __dirname,
+      "../../public/projects/projects.json",
+    );
+    const data = fs.readFileSync(filePath, "utf-8");
     const projects = JSON.parse(data);
 
     res.status(200).json({
       success: true,
-      message: 'Projects fetched successfully',
+      message: "Projects fetched successfully",
       data: projects,
-      total: projects.length
+      total: projects.length,
     });
   } catch (error) {
-    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+    const errorMessage =
+      error instanceof Error ? error.message : "Unknown error";
     res.status(500).json({
       success: false,
-      message: 'Error fetching projects',
-      error: errorMessage
+      message: "Error fetching projects",
+      error: errorMessage,
     });
   }
 });
 
-// GET single project by slug
-router.get('/:slug', (req: Request, res: Response) => {
+router.get("/:slug", (req: Request, res: Response) => {
   try {
-    const filePath = path.join(__dirname, '../../public/projects/web/project.web.json');
-    const data = fs.readFileSync(filePath, 'utf-8');
+    const filePath = path.join(
+      __dirname,
+      "../../public/projects/web/project.web.json",
+    );
+    const data = fs.readFileSync(filePath, "utf-8");
     const projects = JSON.parse(data);
 
-    const project = projects.find((p: any) => p.projectSlug === req.params.slug);
+    const project = projects.find(
+      (p: any) => p.projectSlug === req.params.slug,
+    );
 
     if (!project) {
       return res.status(404).json({
         success: false,
-        message: `Project '${req.params.slug}' not found`
+        message: `Project '${req.params.slug}' not found`,
       });
     }
 
     res.status(200).json({
       success: true,
-      message: 'Project fetched successfully',
-      data: project
+      message: "Project fetched successfully",
+      data: project,
     });
   } catch (error) {
-    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+    const errorMessage =
+      error instanceof Error ? error.message : "Unknown error";
     res.status(500).json({
       success: false,
-      message: 'Error fetching project',
-      error: errorMessage
+      message: "Error fetching project",
+      error: errorMessage,
     });
   }
 });

@@ -88,41 +88,44 @@ router.get("/category/:category", (req: Request, res: Response) => {
 });
 
 // GET skills by category and subcategory
-router.get("/category/:category/:subcategory", (req: Request, res: Response) => {
-  try {
-    const { category, subcategory } = req.params;
-    const subcategoryPath = path.join(
-      __dirname,
-      `../../public/skills/${category}/${subcategory}`,
-    );
+router.get(
+  "/category/:category/:subcategory",
+  (req: Request, res: Response) => {
+    try {
+      const { category, subcategory } = req.params;
+      const subcategoryPath = path.join(
+        __dirname,
+        `../../public/skills/${category}/${subcategory}`,
+      );
 
-    if (!fs.existsSync(subcategoryPath)) {
-      return res.status(404).json({
+      if (!fs.existsSync(subcategoryPath)) {
+        return res.status(404).json({
+          success: false,
+          message: `Skill subcategory '${category}/${subcategory}' not found`,
+        });
+      }
+
+      const allSkills = readSkillsFromDir(subcategoryPath);
+
+      res.status(200).json({
+        success: true,
+        message: `Skills in '${category}/${subcategory}' fetched successfully`,
+        category,
+        subcategory,
+        data: allSkills,
+        total: allSkills.length,
+      });
+    } catch (error) {
+      const errorMessage =
+        error instanceof Error ? error.message : "Unknown error";
+      res.status(500).json({
         success: false,
-        message: `Skill subcategory '${category}/${subcategory}' not found`,
+        message: "Error fetching skills by category and subcategory",
+        error: errorMessage,
       });
     }
-
-    const allSkills = readSkillsFromDir(subcategoryPath);
-
-    res.status(200).json({
-      success: true,
-      message: `Skills in '${category}/${subcategory}' fetched successfully`,
-      category,
-      subcategory,
-      data: allSkills,
-      total: allSkills.length,
-    });
-  } catch (error) {
-    const errorMessage =
-      error instanceof Error ? error.message : "Unknown error";
-    res.status(500).json({
-      success: false,
-      message: "Error fetching skills by category and subcategory",
-      error: errorMessage,
-    });
-  }
-});
+  },
+);
 
 // GET single skill by name
 router.get("/:skillName", (req: Request, res: Response) => {
