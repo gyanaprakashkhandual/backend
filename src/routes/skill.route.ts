@@ -2,6 +2,7 @@ import express, { Request, Response, Router } from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { cache } from "../middlewares/cache.middleware.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -29,7 +30,7 @@ const readSkillsFromDir = (dir: string): any[] => {
 };
 
 // GET all skills
-router.get("/", (req: Request, res: Response) => {
+router.get("/", cache(3600), (req: Request, res: Response) => {
   try {
     const skillsDir = path.join(__dirname, "../../public/skills");
     const allSkills = readSkillsFromDir(skillsDir);
@@ -52,44 +53,49 @@ router.get("/", (req: Request, res: Response) => {
 });
 
 // GET skills by category
-router.get("/category/:category", (req: Request, res: Response) => {
-  try {
-    const { category } = req.params;
-    const categoryPath = path.join(
-      __dirname,
-      `../../public/skills/${category}`,
-    );
+router.get(
+  "/category/:category",
+  cache(3600),
+  (req: Request, res: Response) => {
+    try {
+      const { category } = req.params;
+      const categoryPath = path.join(
+        __dirname,
+        `../../public/skills/${category}`,
+      );
 
-    if (!fs.existsSync(categoryPath)) {
-      return res.status(404).json({
+      if (!fs.existsSync(categoryPath)) {
+        return res.status(404).json({
+          success: false,
+          message: `Skill category '${category}' not found`,
+        });
+      }
+
+      const allSkills = readSkillsFromDir(categoryPath);
+
+      res.status(200).json({
+        success: true,
+        message: `Skills in '${category}' category fetched successfully`,
+        category,
+        data: allSkills,
+        total: allSkills.length,
+      });
+    } catch (error) {
+      const errorMessage =
+        error instanceof Error ? error.message : "Unknown error";
+      res.status(500).json({
         success: false,
-        message: `Skill category '${category}' not found`,
+        message: "Error fetching skills by category",
+        error: errorMessage,
       });
     }
-
-    const allSkills = readSkillsFromDir(categoryPath);
-
-    res.status(200).json({
-      success: true,
-      message: `Skills in '${category}' category fetched successfully`,
-      category,
-      data: allSkills,
-      total: allSkills.length,
-    });
-  } catch (error) {
-    const errorMessage =
-      error instanceof Error ? error.message : "Unknown error";
-    res.status(500).json({
-      success: false,
-      message: "Error fetching skills by category",
-      error: errorMessage,
-    });
-  }
-});
+  },
+);
 
 // GET skills by category and subcategory
 router.get(
   "/category/:category/:subcategory",
+  cache(3600),
   (req: Request, res: Response) => {
     try {
       const { category, subcategory } = req.params;
@@ -128,7 +134,7 @@ router.get(
 );
 
 // GET single skill by name
-router.get("/:skillName", (req: Request, res: Response) => {
+router.get("/:skillName", cache(3600), (req: Request, res: Response) => {
   try {
     const skillsDir = path.join(__dirname, "../../public/skills");
     const skillName = req.params.skillName as string;

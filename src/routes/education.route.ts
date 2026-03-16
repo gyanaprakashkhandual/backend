@@ -2,6 +2,7 @@ import express, { Request, Response, Router } from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { cache } from "../middlewares/cache.middleware.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -9,7 +10,7 @@ const __dirname = path.dirname(__filename);
 const router: Router = express.Router();
 
 // GET all education entries
-router.get("/", (req: Request, res: Response) => {
+router.get("/", cache(3600), (req: Request, res: Response) => {
   try {
     const filePath = path.join(
       __dirname,
@@ -36,7 +37,7 @@ router.get("/", (req: Request, res: Response) => {
 });
 
 // GET education by stream/specialty
-router.get("/stream/:stream", (req: Request, res: Response) => {
+router.get("/stream/:stream", cache(3600), (req: Request, res: Response) => {
   try {
     const filePath = path.join(
       __dirname,
@@ -76,47 +77,52 @@ router.get("/stream/:stream", (req: Request, res: Response) => {
 });
 
 // GET education by institution
-router.get("/institution/:institution", (req: Request, res: Response) => {
-  try {
-    const filePath = path.join(
-      __dirname,
-      "../../public/education/education.json",
-    );
-    const data = fs.readFileSync(filePath, "utf-8");
-    const educationData = JSON.parse(data);
-    const institution = req.params.institution as string;
+router.get(
+  "/institution/:institution",
+  cache(3600),
+  (req: Request, res: Response) => {
+    try {
+      const filePath = path.join(
+        __dirname,
+        "../../public/education/education.json",
+      );
+      const data = fs.readFileSync(filePath, "utf-8");
+      const educationData = JSON.parse(data);
+      const institution = req.params.institution as string;
 
-    const filteredEducation = educationData.education.filter(
-      (edu: any) => edu.institution.toLowerCase() === institution.toLowerCase(),
-    );
+      const filteredEducation = educationData.education.filter(
+        (edu: any) =>
+          edu.institution.toLowerCase() === institution.toLowerCase(),
+      );
 
-    if (filteredEducation.length === 0) {
-      return res.status(404).json({
+      if (filteredEducation.length === 0) {
+        return res.status(404).json({
+          success: false,
+          message: `No education found for institution '${institution}'`,
+        });
+      }
+
+      res.status(200).json({
+        success: true,
+        message: `Education entries from '${institution}' fetched successfully`,
+        institution,
+        data: filteredEducation,
+        total: filteredEducation.length,
+      });
+    } catch (error) {
+      const errorMessage =
+        error instanceof Error ? error.message : "Unknown error";
+      res.status(500).json({
         success: false,
-        message: `No education found for institution '${institution}'`,
+        message: "Error fetching education by institution",
+        error: errorMessage,
       });
     }
-
-    res.status(200).json({
-      success: true,
-      message: `Education entries from '${institution}' fetched successfully`,
-      institution,
-      data: filteredEducation,
-      total: filteredEducation.length,
-    });
-  } catch (error) {
-    const errorMessage =
-      error instanceof Error ? error.message : "Unknown error";
-    res.status(500).json({
-      success: false,
-      message: "Error fetching education by institution",
-      error: errorMessage,
-    });
-  }
-});
+  },
+);
 
 // GET single education by title
-router.get("/:title", (req: Request, res: Response) => {
+router.get("/:title", cache(3600), (req: Request, res: Response) => {
   try {
     const filePath = path.join(
       __dirname,

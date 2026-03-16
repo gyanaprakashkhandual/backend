@@ -2,6 +2,7 @@ import express, { Request, Response, Router } from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { cache } from "../middlewares/cache.middleware.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -9,7 +10,7 @@ const __dirname = path.dirname(__filename);
 const router: Router = express.Router();
 
 // GET all experience entries
-router.get("/", (req: Request, res: Response) => {
+router.get("/", cache(3600), (req: Request, res: Response) => {
   try {
     const filePath = path.join(
       __dirname,
@@ -36,7 +37,7 @@ router.get("/", (req: Request, res: Response) => {
 });
 
 // GET experience by company
-router.get("/company/:company", (req: Request, res: Response) => {
+router.get("/company/:company", cache(3600), (req: Request, res: Response) => {
   try {
     const filePath = path.join(
       __dirname,
@@ -76,7 +77,7 @@ router.get("/company/:company", (req: Request, res: Response) => {
 });
 
 // GET experience by role
-router.get("/role/:role", (req: Request, res: Response) => {
+router.get("/role/:role", cache(3600), (req: Request, res: Response) => {
   try {
     const filePath = path.join(
       __dirname,
@@ -116,7 +117,7 @@ router.get("/role/:role", (req: Request, res: Response) => {
 });
 
 // GET single experience by slug
-router.get("/:slug", (req: Request, res: Response) => {
+router.get("/:slug", cache(3600), (req: Request, res: Response) => {
   try {
     const filePath = path.join(
       __dirname,

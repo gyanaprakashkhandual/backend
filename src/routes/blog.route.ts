@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import matter from "gray-matter";
+import { cache } from "../middlewares/cache.middleware.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -16,7 +17,7 @@ const parseMdFile = (filePath: string) => {
   return { meta: data, content };
 };
 
-router.get("/", (req: Request, res: Response) => {
+router.get("/", cache(3600), (req: Request, res: Response) => {
   try {
     const files = fs.readdirSync(BLOGS_DIR).filter((f) => f.endsWith(".md"));
 
@@ -52,7 +53,7 @@ router.get("/", (req: Request, res: Response) => {
   }
 });
 
-router.get("/:slug", (req: Request, res: Response) => {
+router.get("/:slug", cache(3600), (req: Request, res: Response) => {
   try {
     const { slug } = req.params;
     const files = fs.readdirSync(BLOGS_DIR).filter((f) => f.endsWith(".md"));
