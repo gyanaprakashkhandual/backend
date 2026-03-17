@@ -2,7 +2,6 @@ import express, { Request, Response, NextFunction } from "express";
 import cors from "cors";
 import path from "path";
 import { fileURLToPath } from "url";
-
 import connectDB from "./configs/db.config.js";
 
 import projectRoutes from "./routes/project.route.js";
@@ -18,43 +17,48 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
+
+// ── Database ────────────────────────────────────────────
 connectDB();
 
-// Middleware
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
+// ── CORS (must be first) ────────────────────────────────
 app.use(
   cors({
     origin: ["http://localhost:3000", "https://gyanprakash.vercel.app"],
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
-  }),
+  })
 );
+app.options("/{*path}", cors());
 
-// Serve static files
+// ── Body Parsers ────────────────────────────────────────
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// ── Static Files ────────────────────────────────────────
 app.use(express.static(path.join(__dirname, "../public")));
 
-// API Routes
-app.use("/api/projects", projectRoutes);
-app.use("/api/skills", skillRoutes);
-app.use("/api/education", educationRoutes);
+// ── API Routes ──────────────────────────────────────────
+app.use("/api/projects",   projectRoutes);
+app.use("/api/skills",     skillRoutes);
+app.use("/api/education",  educationRoutes);
 app.use("/api/experience", experienceRoutes);
-app.use("/api/music", musicRoutes);
-app.use("/api/user", userRoutes);
-app.use("/api/blogs", blogRoutes);
-app.use("/api/contact", contactRoutes);
+app.use("/api/music",      musicRoutes);
+app.use("/api/user",       userRoutes);
+app.use("/api/blogs",      blogRoutes);
+app.use("/api/contact",    contactRoutes);
 
-// Health check endpoint
-app.get("/api/health", (req: Request, res: Response) => {
+// ── Health Check ────────────────────────────────────────
+app.get("/api/health", (_req: Request, res: Response) => {
   res.status(200).json({
     success: true,
-    message: "Server is running successfully",
+    message: "Server is running",
     timestamp: new Date().toISOString(),
   });
 });
 
-// 404 handler
+// ── 404 Handler ─────────────────────────────────────────
 app.use((req: Request, res: Response) => {
   res.status(404).json({
     success: false,
@@ -63,14 +67,13 @@ app.use((req: Request, res: Response) => {
   });
 });
 
-// Error handling middleware
-app.use((err: any, req: Request, res: Response, next: NextFunction) => {
+// ── Global Error Handler ────────────────────────────────
+app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
   console.error("Error:", err);
-
   res.status(err.status || 500).json({
     success: false,
     message: err.message || "Internal Server Error",
-    error: process.env.NODE_ENV === "development" ? err : {},
+    ...(process.env.NODE_ENV === "development" && { error: err }),
   });
 });
 
