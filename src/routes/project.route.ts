@@ -2,14 +2,13 @@ import express, { Request, Response, Router } from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { cache } from "../middlewares/cache.middleware.js";
-
+ 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const router: Router = express.Router();
 
-router.get("/", cache(3600), (req: Request, res: Response) => {
+router.get("/",   (req: Request, res: Response) => {
   try {
     const filePath = path.join(
       __dirname,
@@ -35,7 +34,7 @@ router.get("/", cache(3600), (req: Request, res: Response) => {
   }
 });
 
-router.get("/:slug", cache(3600), (req: Request, res: Response) => {
+router.get("/:slug",   (req: Request, res: Response) => {
   try {
     const filePath = path.join(
       __dirname,

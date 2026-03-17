@@ -2,8 +2,7 @@ import express, { Request, Response, Router } from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { cache } from "../middlewares/cache.middleware.js";
-
+ 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -30,7 +29,7 @@ const readSkillsFromDir = (dir: string): any[] => {
 };
 
 // GET all skills
-router.get("/", cache(3600), (req: Request, res: Response) => {
+router.get("/",   (req: Request, res: Response) => {
   try {
     const skillsDir = path.join(__dirname, "../../public/skills");
     const allSkills = readSkillsFromDir(skillsDir);
@@ -55,7 +54,7 @@ router.get("/", cache(3600), (req: Request, res: Response) => {
 // GET skills by category
 router.get(
   "/category/:category",
-  cache(3600),
+   
   (req: Request, res: Response) => {
     try {
       const { category } = req.params;
@@ -95,7 +94,7 @@ router.get(
 // GET skills by category and subcategory
 router.get(
   "/category/:category/:subcategory",
-  cache(3600),
+   
   (req: Request, res: Response) => {
     try {
       const { category, subcategory } = req.params;
@@ -134,7 +133,7 @@ router.get(
 );
 
 // GET single skill by name
-router.get("/:skillName", cache(3600), (req: Request, res: Response) => {
+router.get("/:skillName",   (req: Request, res: Response) => {
   try {
     const skillsDir = path.join(__dirname, "../../public/skills");
     const skillName = req.params.skillName as string;
