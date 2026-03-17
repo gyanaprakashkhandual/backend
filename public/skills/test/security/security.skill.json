@@ -4,7 +4,7 @@
     "totalProjects": "42+",
     "totalExperience": "5 years",
     "description": "OWASP ZAP is my automated security scanning staple — I run active and passive scans against web apps, integrate it into CI pipelines, and triage findings by severity before every release.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/owasp-zap",
+    "githubLink": "https://github.com/gyanaprakashkhandual/owasp-zap",
     "learningLink": "https://www.zaproxy.org/docs/",
     "learningSource": "ZAP Docs"
   },
@@ -13,7 +13,7 @@
     "totalProjects": "45+",
     "totalExperience": "5 years",
     "description": "Burp Suite is my hands-on web security testing platform — intercepting traffic, manipulating requests, running Intruder attacks, and hunting vulnerabilities that automated scanners routinely miss.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/burp-suite",
+    "githubLink": "https://github.com/gyanaprakashkhandual/burp-suite",
     "learningLink": "https://portswigger.net/burp/documentation",
     "learningSource": "PortSwigger Docs"
   },
@@ -22,7 +22,7 @@
     "totalProjects": "30+",
     "totalExperience": "4 years",
     "description": "Nikto gives me a rapid first-pass web server audit — scanning for outdated software, dangerous files, misconfigurations, and known vulnerabilities in minutes before deeper testing begins.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/nikto",
+    "githubLink": "https://github.com/gyanaprakashkhandual/nikto",
     "learningLink": "https://github.com/sullo/nikto/wiki",
     "learningSource": "Nikto Wiki"
   },
@@ -31,7 +31,7 @@
     "totalProjects": "18+",
     "totalExperience": "3 years",
     "description": "I use TheFatRat in controlled lab environments to understand payload generation and backdoor techniques — knowledge that directly sharpens how I defend real applications against similar attack vectors.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/thefatrat",
+    "githubLink": "https://github.com/gyanaprakashkhandual/thefatrat",
     "learningLink": "https://github.com/Screetsec/TheFatRat",
     "learningSource": "TheFatRat GitHub"
   },
@@ -40,7 +40,7 @@
     "totalProjects": "28+",
     "totalExperience": "4 years",
     "description": "Metasploit is my exploitation framework for authorized penetration tests — I use it to validate whether discovered vulnerabilities are truly exploitable before recommending remediation priorities.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/metasploit",
+    "githubLink": "https://github.com/gyanaprakashkhandual/metasploit",
     "learningLink": "https://docs.metasploit.com/",
     "learningSource": "Metasploit Docs"
   },
@@ -49,7 +49,7 @@
     "totalProjects": "40+",
     "totalExperience": "5 years",
     "description": "Nmap is my network reconnaissance foundation — I map open ports, fingerprint services, detect OS versions, and identify exposed attack surfaces before any security engagement begins.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/nmap",
+    "githubLink": "https://github.com/gyanaprakashkhandual/nmap",
     "learningLink": "https://nmap.org/book/man.html",
     "learningSource": "Nmap Docs"
   },
@@ -58,7 +58,7 @@
     "totalProjects": "32+",
     "totalExperience": "4 years",
     "description": "Wireshark lets me see exactly what travels across the wire — I capture and dissect network packets to detect unencrypted credentials, suspicious traffic patterns, and protocol anomalies.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/wireshark",
+    "githubLink": "https://github.com/gyanaprakashkhandual/wireshark",
     "learningLink": "https://www.wireshark.org/docs/wsug_html_chunked/",
     "learningSource": "Wireshark Docs"
   },
@@ -67,7 +67,7 @@
     "totalProjects": "35+",
     "totalExperience": "4 years",
     "description": "SQLMap automates SQL injection detection and exploitation in authorized tests — I use it to prove injection severity, extract sample data, and demonstrate real business impact to development teams.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/sqlmap",
+    "githubLink": "https://github.com/gyanaprakashkhandual/sqlmap",
     "learningLink": "https://sqlmap.org/",
     "learningSource": "SQLMap Docs"
   },
@@ -76,7 +76,7 @@
     "totalProjects": "50+",
     "totalExperience": "5 years",
     "description": "The OWASP Top 10 is my security checklist for every project — I systematically test for injection, broken auth, IDOR, misconfiguration, and all critical risk categories before any application goes live.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/owasp-top10",
+    "githubLink": "https://github.com/gyanaprakashkhandual/owasp-top10",
     "learningLink": "https://owasp.org/www-project-top-ten/",
     "learningSource": "OWASP Docs"
   },
@@ -85,7 +85,7 @@
     "totalProjects": "38+",
     "totalExperience": "5 years",
     "description": "Penetration testing is where I think like an attacker — scoping engagements, chaining vulnerabilities, escalating privileges, and delivering actionable reports that drive real security improvements.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/penetration-testing",
+    "githubLink": "https://github.com/gyanaprakashkhandual/penetration-testing",
     "learningLink": "https://owasp.org/www-project-web-security-testing-guide/",
     "learningSource": "OWASP WSTG"
   },
@@ -94,7 +94,7 @@
     "totalProjects": "45+",
     "totalExperience": "5 years",
     "description": "I conduct structured vulnerability assessments across web, API, and infrastructure layers — cataloguing findings with CVSS scores, proof-of-concept steps, and prioritized remediation roadmaps.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/vulnerability-assessment",
+    "githubLink": "https://github.com/gyanaprakashkhandual/vulnerability-assessment",
     "learningLink": "https://www.first.org/cvss/",
     "learningSource": "CVSS Docs"
   },
@@ -103,7 +103,7 @@
     "totalProjects": "40+",
     "totalExperience": "5 years",
     "description": "I probe every input field and reflection point for XSS — testing reflected, stored, and DOM-based variants with custom payloads that bypass common filters and WAF rules.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/xss-testing",
+    "githubLink": "https://github.com/gyanaprakashkhandual/xss-testing",
     "learningLink": "https://owasp.org/www-community/attacks/xss/",
     "learningSource": "OWASP Docs"
   },
@@ -112,7 +112,7 @@
     "totalProjects": "42+",
     "totalExperience": "5 years",
     "description": "SQL injection testing is a core part of every security audit I conduct — manually probing endpoints for error-based, blind, and time-based injection flaws that automated tools often overlook.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/sql-injection",
+    "githubLink": "https://github.com/gyanaprakashkhandual/sql-injection",
     "learningLink": "https://owasp.org/www-community/attacks/SQL_Injection",
     "learningSource": "OWASP Docs"
   },
@@ -121,7 +121,7 @@
     "totalProjects": "35+",
     "totalExperience": "4 years",
     "description": "I test CSRF protections by crafting forged cross-origin requests — verifying that token validation, SameSite cookie flags, and origin checks are correctly enforced on every state-changing endpoint.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/csrf-testing",
+    "githubLink": "https://github.com/gyanaprakashkhandual/csrf-testing",
     "learningLink": "https://owasp.org/www-community/attacks/csrf",
     "learningSource": "OWASP Docs"
   },
@@ -130,7 +130,7 @@
     "totalProjects": "48+",
     "totalExperience": "5 years",
     "description": "I run layered security scans combining SAST, DAST, and dependency checks — building automated scanning gates into CI pipelines so vulnerabilities are caught at code time, not post-deployment.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/security-scanning",
+    "githubLink": "https://github.com/gyanaprakashkhandual/security-scanning",
     "learningLink": "https://owasp.org/www-project-devsecops-guideline/",
     "learningSource": "OWASP DevSecOps"
   },
@@ -139,7 +139,7 @@
     "totalProjects": "40+",
     "totalExperience": "5 years",
     "description": "Kali Linux is my security testing operating system — its curated toolkit of offensive and defensive tools means I have everything I need for a full penetration test in a single bootable environment.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/kali-linux",
+    "githubLink": "https://github.com/gyanaprakashkhandual/kali-linux",
     "learningLink": "https://www.kali.org/docs/",
     "learningSource": "Kali Linux Docs"
   },
@@ -148,7 +148,7 @@
     "totalProjects": "38+",
     "totalExperience": "4 years",
     "description": "I audit SSL/TLS configurations for weak cipher suites, expired certificates, protocol downgrades, and HSTS misconfigurations — ensuring every connection is encrypted to modern security standards.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/ssl-tls-testing",
+    "githubLink": "https://github.com/gyanaprakashkhandual/ssl-tls-testing",
     "learningLink": "https://testssl.sh/",
     "learningSource": "testssl.sh Docs"
   },
@@ -157,7 +157,7 @@
     "totalProjects": "45+",
     "totalExperience": "5 years",
     "description": "I stress-test authentication mechanisms for brute force susceptibility, account enumeration, credential stuffing vectors, and MFA bypass techniques that attackers actively exploit in the wild.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/authentication-testing",
+    "githubLink": "https://github.com/gyanaprakashkhandual/authentication-testing",
     "learningLink": "https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/",
     "learningSource": "OWASP WSTG"
   },
@@ -166,7 +166,7 @@
     "totalProjects": "43+",
     "totalExperience": "5 years",
     "description": "I test authorization boundaries by attempting horizontal and vertical privilege escalation — verifying that users can only access exactly what they are permitted to and nothing more.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/authorization-testing",
+    "githubLink": "https://github.com/gyanaprakashkhandual/authorization-testing",
     "learningLink": "https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/",
     "learningSource": "OWASP WSTG"
   },
@@ -175,7 +175,7 @@
     "totalProjects": "40+",
     "totalExperience": "5 years",
     "description": "I audit session token entropy, fixation vulnerabilities, timeout enforcement, and secure cookie attributes — ensuring sessions cannot be hijacked, forged, or reused after logout.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/session-management",
+    "githubLink": "https://github.com/gyanaprakashkhandual/session-management",
     "learningLink": "https://owasp.org/www-community/attacks/Session_hijacking_attack",
     "learningSource": "OWASP Docs"
   },
@@ -184,7 +184,7 @@
     "totalProjects": "35+",
     "totalExperience": "4 years",
     "description": "I validate HTTP security headers on every application I test — checking CSP, X-Frame-Options, HSTS, Referrer-Policy, and Permissions-Policy configurations that form the browser-side security perimeter.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/security-headers",
+    "githubLink": "https://github.com/gyanaprakashkhandual/security-headers",
     "learningLink": "https://securityheaders.com/",
     "learningSource": "Security Headers Docs"
   },
@@ -193,7 +193,7 @@
     "totalProjects": "42+",
     "totalExperience": "5 years",
     "description": "API security is a specialty of mine — I test for BOLA, mass assignment, excessive data exposure, and rate limiting gaps using the OWASP API Security Top 10 as my systematic testing guide.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/api-security",
+    "githubLink": "https://github.com/gyanaprakashkhandual/api-security",
     "learningLink": "https://owasp.org/www-project-api-security/",
     "learningSource": "OWASP API Security"
   }

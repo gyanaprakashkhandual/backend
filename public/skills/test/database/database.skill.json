@@ -4,7 +4,7 @@
     "totalProjects": "60+",
     "totalExperience": "5 years",
     "description": "SQL is the language I think in when data is involved — writing complex queries, subqueries, window functions, and CTEs to extract exactly the insights a system needs to validate its data layer.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/sql",
+    "githubLink": "https://github.com/gyanaprakashkhandual/sql",
     "learningLink": "https://www.w3schools.com/sql/",
     "learningSource": "W3Schools"
   },
@@ -13,7 +13,7 @@
     "totalProjects": "55+",
     "totalExperience": "5 years",
     "description": "MySQL is my most battle-tested relational database — I design schemas, tune queries, manage replication, and write complex stored procedures for high-traffic production applications.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/mysql",
+    "githubLink": "https://github.com/gyanaprakashkhandual/mysql",
     "learningLink": "https://dev.mysql.com/doc/",
     "learningSource": "MySQL Docs"
   },
@@ -22,7 +22,7 @@
     "totalProjects": "50+",
     "totalExperience": "5 years",
     "description": "PostgreSQL is my relational database of choice for complex systems — JSONB columns, CTEs, advanced indexing, and rich extension support make it incredibly powerful for data-intensive applications.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/postgresql",
+    "githubLink": "https://github.com/gyanaprakashkhandual/postgresql",
     "learningLink": "https://www.postgresql.org/docs/",
     "learningSource": "PostgreSQL Docs"
   },
@@ -31,7 +31,7 @@
     "totalProjects": "48+",
     "totalExperience": "5 years",
     "description": "MongoDB is my go-to for document-oriented data — I design flexible schemas, build aggregation pipelines, and validate data consistency across collections in large-scale NoSQL environments.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/mongodb",
+    "githubLink": "https://github.com/gyanaprakashkhandual/mongodb",
     "learningLink": "https://www.mongodb.com/docs/manual/",
     "learningSource": "MongoDB Docs"
   },
@@ -40,7 +40,7 @@
     "totalProjects": "35+",
     "totalExperience": "4 years",
     "description": "Oracle is where I work when enterprise scale demands it — PL/SQL packages, partitioned tables, and Oracle-specific optimizer hints are all part of my toolkit for mission-critical systems.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/oracle-database",
+    "githubLink": "https://github.com/gyanaprakashkhandual/oracle-database",
     "learningLink": "https://docs.oracle.com/en/database/",
     "learningSource": "Oracle Docs"
   },
@@ -49,7 +49,7 @@
     "totalProjects": "40+",
     "totalExperience": "4 years",
     "description": "I use SQL Server for Microsoft-stack enterprise projects — T-SQL scripting, SSMS profiling, execution plan analysis, and Integration Services pipelines are central to my workflow there.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/sql-server",
+    "githubLink": "https://github.com/gyanaprakashkhandual/sql-server",
     "learningLink": "https://learn.microsoft.com/en-us/sql/sql-server/",
     "learningSource": "Microsoft Docs"
   },
@@ -58,7 +58,7 @@
     "totalProjects": "30+",
     "totalExperience": "4 years",
     "description": "SQLite is my lightweight testing database — perfect for unit testing data layers, seeding isolated test environments, and validating schema migrations without spinning up a full database server.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/sqlite",
+    "githubLink": "https://github.com/gyanaprakashkhandual/sqlite",
     "learningLink": "https://www.sqlite.org/docs.html",
     "learningSource": "SQLite Docs"
   },
@@ -67,7 +67,7 @@
     "totalProjects": "28+",
     "totalExperience": "4 years",
     "description": "I test Redis as a data store, not just a cache — validating TTL expiry behavior, pub/sub message delivery, sorted set operations, and data persistence configurations under load.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/redis",
+    "githubLink": "https://github.com/gyanaprakashkhandual/redis",
     "learningLink": "https://redis.io/docs/latest/",
     "learningSource": "Redis Docs"
   },
@@ -76,7 +76,7 @@
     "totalProjects": "18+",
     "totalExperience": "3 years",
     "description": "Cassandra testing demands a distributed mindset — I validate eventual consistency behavior, partition key design, compaction strategies, and read/write performance under multi-node cluster conditions.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/cassandra",
+    "githubLink": "https://github.com/gyanaprakashkhandual/cassandra",
     "learningLink": "https://cassandra.apache.org/doc/latest/",
     "learningSource": "Cassandra Docs"
   },
@@ -85,7 +85,7 @@
     "totalProjects": "45+",
     "totalExperience": "5 years",
     "description": "JDBC is my Java bridge to any relational database — I use it to write database test utilities, execute parameterized queries, and validate result sets programmatically in automated test frameworks.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/jdbc",
+    "githubLink": "https://github.com/gyanaprakashkhandual/jdbc",
     "learningLink": "https://docs.oracle.com/javase/tutorial/jdbc/overview/index.html",
     "learningSource": "Oracle Java Docs"
   },
@@ -94,7 +94,7 @@
     "totalProjects": "42+",
     "totalExperience": "5 years",
     "description": "I write and test stored procedures as first-class application components — unit testing business logic encapsulated in the database layer with boundary cases, error handling, and rollback scenarios.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/stored-procedures",
+    "githubLink": "https://github.com/gyanaprakashkhandual/stored-procedures",
     "learningLink": "https://www.postgresql.org/docs/current/plpgsql.html",
     "learningSource": "PostgreSQL Docs"
   },
@@ -103,7 +103,7 @@
     "totalProjects": "35+",
     "totalExperience": "4 years",
     "description": "Database triggers are invisible logic that I make visible through testing — validating that BEFORE and AFTER triggers fire correctly, maintain audit trails, and never silently corrupt data.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/triggers",
+    "githubLink": "https://github.com/gyanaprakashkhandual/triggers",
     "learningLink": "https://www.postgresql.org/docs/current/trigger-definition.html",
     "learningSource": "PostgreSQL Docs"
   },
@@ -112,7 +112,7 @@
     "totalProjects": "38+",
     "totalExperience": "5 years",
     "description": "I treat database views as testable contracts — validating that materialized and standard views return accurate, performant data and correctly abstract underlying table complexity from application layers.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/views",
+    "githubLink": "https://github.com/gyanaprakashkhandual/views",
     "learningLink": "https://www.postgresql.org/docs/current/sql-createview.html",
     "learningSource": "PostgreSQL Docs"
   },
@@ -121,7 +121,7 @@
     "totalProjects": "40+",
     "totalExperience": "5 years",
     "description": "Index strategy is one of my strongest database skills — I analyze execution plans, identify missing indexes, test covering index effectiveness, and measure the real query performance impact of each change.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/indexes",
+    "githubLink": "https://github.com/gyanaprakashkhandual/indexes",
     "learningLink": "https://use-the-index-luke.com/",
     "learningSource": "Use The Index Luke"
   },
@@ -130,7 +130,7 @@
     "totalProjects": "55+",
     "totalExperience": "5 years",
     "description": "I write and validate complex multi-table joins daily — testing INNER, LEFT, RIGHT, FULL OUTER, and CROSS joins for correctness, null handling, and cartesian product edge cases that break applications silently.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/joins",
+    "githubLink": "https://github.com/gyanaprakashkhandual/joins",
     "learningLink": "https://www.w3schools.com/sql/sql_join.asp",
     "learningSource": "W3Schools"
   },
@@ -139,7 +139,7 @@
     "totalProjects": "48+",
     "totalExperience": "5 years",
     "description": "I test transaction boundaries rigorously — validating ACID properties, deadlock handling, savepoint rollbacks, and isolation level behavior under concurrent access to ensure data never ends up in a corrupt state.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/transactions",
+    "githubLink": "https://github.com/gyanaprakashkhandual/transactions",
     "learningLink": "https://www.postgresql.org/docs/current/tutorial-transactions.html",
     "learningSource": "PostgreSQL Docs"
   },
@@ -148,7 +148,7 @@
     "totalProjects": "52+",
     "totalExperience": "5 years",
     "description": "Data integrity is non-negotiable in every system I test — I validate foreign key constraints, unique constraints, check constraints, and cascading rules to ensure the database never accepts invalid state.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/data-integrity",
+    "githubLink": "https://github.com/gyanaprakashkhandual/data-integrity",
     "learningLink": "https://www.ibm.com/docs/en/informix-servers/14.10?topic=integrity-data",
     "learningSource": "IBM Docs"
   },
@@ -157,7 +157,7 @@
     "totalProjects": "45+",
     "totalExperience": "5 years",
     "description": "I validate database schemas against design specifications — checking column types, nullability, default values, and constraint definitions to catch structural drift before it reaches production environments.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/schema-validation",
+    "githubLink": "https://github.com/gyanaprakashkhandual/schema-validation",
     "learningLink": "https://www.liquibase.com/blog/database-schema-validation",
     "learningSource": "Liquibase Blog"
   },
@@ -166,7 +166,7 @@
     "totalProjects": "30+",
     "totalExperience": "4 years",
     "description": "ETL testing is about trusting your data pipeline — I validate source-to-target transformations, reconciliation counts, data type mappings, and null handling at every stage of the extraction and load process.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/etl-testing",
+    "githubLink": "https://github.com/gyanaprakashkhandual/etl-testing",
     "learningLink": "https://www.guru99.com/etl-testing-introduction.html",
     "learningSource": "Guru99"
   },
@@ -175,7 +175,7 @@
     "totalProjects": "32+",
     "totalExperience": "4 years",
     "description": "I test data migrations with surgical precision — pre and post-migration row counts, checksum comparisons, referential integrity checks, and rollback validation to ensure zero data loss during cutover.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/data-migration",
+    "githubLink": "https://github.com/gyanaprakashkhandual/data-migration",
     "learningLink": "https://www.talend.com/resources/data-migration/",
     "learningSource": "Talend Resources"
   },
@@ -184,7 +184,7 @@
     "totalProjects": "38+",
     "totalExperience": "5 years",
     "description": "I hunt slow queries like a detective — reading execution plans, identifying sequential scans, rewriting inefficient joins, and measuring before-and-after performance gains with cold and warm cache comparisons.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/query-optimization",
+    "githubLink": "https://github.com/gyanaprakashkhandual/query-optimization",
     "learningLink": "https://www.postgresql.org/docs/current/performance-tips.html",
     "learningSource": "PostgreSQL Docs"
   },
@@ -193,7 +193,7 @@
     "totalProjects": "35+",
     "totalExperience": "4 years",
     "description": "I benchmark database performance under realistic load — measuring query throughput, connection pool saturation, lock contention, and cache hit ratios to identify bottlenecks before they impact users.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/db-performance-testing",
+    "githubLink": "https://github.com/gyanaprakashkhandual/db-performance-testing",
     "learningLink": "https://www.pgbench.com/",
     "learningSource": "pgBench Docs"
   },
@@ -202,7 +202,7 @@
     "totalProjects": "40+",
     "totalExperience": "4 years",
     "description": "I use TestNG to organize database test suites with group-based execution, dependency chains, and parallel data provider runs that validate hundreds of SQL scenarios in a single automated pass.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/testng",
+    "githubLink": "https://github.com/gyanaprakashkhandual/testng",
     "learningLink": "https://testng.org/doc/documentation-main/documentation-main.html",
     "learningSource": "TestNG Docs"
   },
@@ -211,7 +211,7 @@
     "totalProjects": "42+",
     "totalExperience": "4 years",
     "description": "JUnit powers my database unit tests — I use it with in-memory databases and transaction rollback annotations to test SQL logic in complete isolation without leaving any test data behind.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/junit",
+    "githubLink": "https://github.com/gyanaprakashkhandual/junit",
     "learningLink": "https://junit.org/junit5/docs/current/user-guide/",
     "learningSource": "JUnit 5 Docs"
   },
@@ -220,7 +220,7 @@
     "totalProjects": "28+",
     "totalExperience": "4 years",
     "description": "DBUnit is my database state management tool for testing — seeding controlled datasets before tests, asserting exact table states after operations, and tearing down cleanly so tests never bleed into each other.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/dbunit",
+    "githubLink": "https://github.com/gyanaprakashkhandual/dbunit",
     "learningLink": "https://dbunit.sourceforge.net/",
     "learningSource": "DBUnit Docs"
   },
@@ -229,7 +229,7 @@
     "totalProjects": "22+",
     "totalExperience": "3 years",
     "description": "Liquibase keeps my database schema changes version-controlled and auditable — I test changeset rollbacks, validate checksums, and integrate schema migrations directly into CI deployment pipelines.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/liquibase",
+    "githubLink": "https://github.com/gyanaprakashkhandual/liquibase",
     "learningLink": "https://docs.liquibase.com/home.html",
     "learningSource": "Liquibase Docs"
   },
@@ -238,7 +238,7 @@
     "totalProjects": "20+",
     "totalExperience": "3 years",
     "description": "Flyway manages my database migration lifecycle with versioned SQL scripts — I validate migration ordering, test baseline scenarios, and ensure clean forward and repair operations across all environments.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/flyway",
+    "githubLink": "https://github.com/gyanaprakashkhandual/flyway",
     "learningLink": "https://documentation.red-gate.com/flyway",
     "learningSource": "Flyway Docs"
   },
@@ -247,7 +247,7 @@
     "totalProjects": "30+",
     "totalExperience": "4 years",
     "description": "I build and use data generators to seed realistic test datasets — production-like volumes with varied edge cases that expose bugs only visible when databases contain millions of properly distributed rows.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/data-generator",
+    "githubLink": "https://github.com/gyanaprakashkhandual/data-generator",
     "learningLink": "https://www.mockaroo.com/",
     "learningSource": "Mockaroo"
   },
@@ -256,7 +256,7 @@
     "totalProjects": "25+",
     "totalExperience": "4 years",
     "description": "SQL Profiler is my forensic tool for slow query investigation — capturing execution traces, identifying N+1 patterns, and measuring the real cost of every database call an application makes under load.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/sql-profiler",
+    "githubLink": "https://github.com/gyanaprakashkhandual/sql-profiler",
     "learningLink": "https://learn.microsoft.com/en-us/sql/tools/sql-server-profiler/sql-server-profiler",
     "learningSource": "Microsoft Docs"
   },
@@ -265,7 +265,7 @@
     "totalProjects": "28+",
     "totalExperience": "4 years",
     "description": "I test backup and recovery processes as rigorously as application features — validating backup completeness, measuring recovery time objectives, and confirming point-in-time restore works before disaster strikes.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/backup-recovery",
+    "githubLink": "https://github.com/gyanaprakashkhandual/backup-recovery",
     "learningLink": "https://www.postgresql.org/docs/current/backup.html",
     "learningSource": "PostgreSQL Docs"
   },
@@ -274,7 +274,7 @@
     "totalProjects": "32+",
     "totalExperience": "4 years",
     "description": "Database security testing is a dedicated practice for me — I audit user privilege assignments, test for SQL injection vectors, validate encrypted column handling, and verify audit logging captures all sensitive operations.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/db-security-testing",
+    "githubLink": "https://github.com/gyanaprakashkhandual/db-security-testing",
     "learningLink": "https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection",
     "learningSource": "OWASP WSTG"
   },
@@ -283,7 +283,7 @@
     "totalProjects": "18+",
     "totalExperience": "3 years",
     "description": "I validate database replication setups by testing lag tolerances, failover switchover times, replica consistency, and conflict resolution to ensure read replicas never serve stale or divergent data.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/replication-testing",
+    "githubLink": "https://github.com/gyanaprakashkhandual/replication-testing",
     "learningLink": "https://www.postgresql.org/docs/current/runtime-config-replication.html",
     "learningSource": "PostgreSQL Docs"
   },
@@ -292,7 +292,7 @@
     "totalProjects": "35+",
     "totalExperience": "4 years",
     "description": "NoSQL testing requires thinking beyond rows and columns — I validate document structure consistency, key expiry behavior, collection-level access controls, and eventual consistency guarantees across distributed NoSQL systems.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/nosql-testing",
+    "githubLink": "https://github.com/gyanaprakashkhandual/nosql-testing",
     "learningLink": "https://www.mongodb.com/docs/manual/core/data-modeling-introduction/",
     "learningSource": "MongoDB Docs"
   },
@@ -301,7 +301,7 @@
     "totalProjects": "45+",
     "totalExperience": "5 years",
     "description": "I write database automation scripts that do the heavy lifting — seeding test data, resetting environment states, running health checks, generating comparison reports, and integrating DB validation into every CI pipeline I own.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/db-automation-scripts",
+    "githubLink": "https://github.com/gyanaprakashkhandual/db-automation-scripts",
     "learningLink": "https://www.postgresql.org/docs/current/app-psql.html",
     "learningSource": "PostgreSQL Docs"
   }

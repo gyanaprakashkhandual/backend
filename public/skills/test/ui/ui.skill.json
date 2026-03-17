@@ -4,7 +4,7 @@
     "totalProjects": "45+",
     "totalExperience": "5 years",
     "description": "Selenium is where my testing journey began — I've built robust cross-browser automation frameworks from scratch using Page Object Model and data-driven approaches.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/selenium",
+    "githubLink": "https://github.com/gyanaprakashkhandual/selenium",
     "learningLink": "https://www.selenium.dev/documentation/",
     "learningSource": "Selenium Docs"
   },
@@ -13,7 +13,7 @@
     "totalProjects": "35+",
     "totalExperience": "4 years",
     "description": "Playwright is my modern automation weapon — auto-waiting, network interception, and multi-browser support make it my go-to for reliable end-to-end test suites.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/playwright",
+    "githubLink": "https://github.com/gyanaprakashkhandual/playwright",
     "learningLink": "https://playwright.dev/docs/intro",
     "learningSource": "Playwright Docs"
   },
@@ -22,7 +22,7 @@
     "totalProjects": "40+",
     "totalExperience": "5 years",
     "description": "Cypress changed how I think about frontend testing — real-time reloads, time-travel debugging, and its intuitive API make writing tests genuinely enjoyable.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/cypress",
+    "githubLink": "https://github.com/gyanaprakashkhandual/cypress",
     "learningLink": "https://docs.cypress.io/guides/overview/why-cypress",
     "learningSource": "Cypress Docs"
   },
@@ -31,7 +31,7 @@
     "totalProjects": "18+",
     "totalExperience": "3 years",
     "description": "I use Nightwatch.js for Node.js-based browser automation — its built-in test runner and clean syntax make it a solid choice for lightweight E2E testing pipelines.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/nightwatch",
+    "githubLink": "https://github.com/gyanaprakashkhandual/nightwatch",
     "learningLink": "https://nightwatchjs.org/guide/overview/what-is-nightwatch.html",
     "learningSource": "Nightwatch Docs"
   },
@@ -40,7 +40,7 @@
     "totalProjects": "28+",
     "totalExperience": "4 years",
     "description": "WebdriverIO gives me the flexibility to test web and mobile from a single framework — its extensive plugin ecosystem and async support fit perfectly into CI pipelines.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/webdriverio",
+    "githubLink": "https://github.com/gyanaprakashkhandual/webdriverio",
     "learningLink": "https://webdriver.io/docs/gettingstarted",
     "learningSource": "WebdriverIO Docs"
   },
@@ -49,7 +49,7 @@
     "totalProjects": "30+",
     "totalExperience": "4 years",
     "description": "TestNG powers my Java test suites with parallel execution, data providers, and dependency management — essential for large-scale Selenium automation projects.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/testng",
+    "githubLink": "https://github.com/gyanaprakashkhandual/testng",
     "learningLink": "https://testng.org/doc/documentation-main/documentation-main.html",
     "learningSource": "TestNG Docs"
   },
@@ -58,7 +58,7 @@
     "totalProjects": "32+",
     "totalExperience": "4 years",
     "description": "JUnit is my unit testing backbone for Java projects — parameterized tests, lifecycle annotations, and seamless Maven integration keep my test coverage solid.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/junit",
+    "githubLink": "https://github.com/gyanaprakashkhandual/junit",
     "learningLink": "https://junit.org/junit5/docs/current/user-guide/",
     "learningSource": "JUnit 5 Docs"
   },
@@ -67,7 +67,7 @@
     "totalProjects": "35+",
     "totalExperience": "4 years",
     "description": "Mocha is my flexible JavaScript test runner — paired with Chai assertions and Sinon stubs, it gives me full control over how I structure and execute test suites.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/mocha",
+    "githubLink": "https://github.com/gyanaprakashkhandual/mocha",
     "learningLink": "https://mochajs.org/",
     "learningSource": "Mocha Docs"
   },
@@ -76,7 +76,7 @@
     "totalProjects": "25+",
     "totalExperience": "4 years",
     "description": "I write BDD scenarios in Gherkin with Cucumber to bridge the gap between business requirements and automated tests — making acceptance criteria executable.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/cucumber",
+    "githubLink": "https://github.com/gyanaprakashkhandual/cucumber",
     "learningLink": "https://cucumber.io/docs/guides/overview/",
     "learningSource": "Cucumber Docs"
   },
@@ -85,7 +85,7 @@
     "totalProjects": "20+",
     "totalExperience": "3 years",
     "description": "Appium lets me automate real mobile user journeys on iOS and Android from a single codebase — perfect for cross-platform mobile regression testing.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/appium",
+    "githubLink": "https://github.com/gyanaprakashkhandual/appium",
     "learningLink": "https://appium.io/docs/en/latest/",
     "learningSource": "Appium Docs"
   },
@@ -94,7 +94,7 @@
     "totalProjects": "10+",
     "totalExperience": "2 years",
     "description": "I use WinAppDriver to automate Windows desktop applications — bringing the same structured testing discipline to native apps that I apply to web and mobile.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/winappdriver",
+    "githubLink": "https://github.com/gyanaprakashkhandual/winappdriver",
     "learningLink": "https://github.com/microsoft/WinAppDriver",
     "learningSource": "WinAppDriver GitHub"
   },
@@ -103,7 +103,7 @@
     "totalProjects": "15+",
     "totalExperience": "3 years",
     "description": "Espresso is my native Android UI testing framework — fast, reliable, and tightly integrated with the Android lifecycle for accurate instrumentation tests.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/espresso",
+    "githubLink": "https://github.com/gyanaprakashkhandual/espresso",
     "learningLink": "https://developer.android.com/training/testing/espresso",
     "learningSource": "Android Developer Docs"
   },
@@ -112,7 +112,7 @@
     "totalProjects": "14+",
     "totalExperience": "3 years",
     "description": "I write XCUITest automation for iOS apps — leveraging Apple's native framework for stable, fast UI tests that run directly on simulator and real devices.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/xcuitest",
+    "githubLink": "https://github.com/gyanaprakashkhandual/xcuitest",
     "learningLink": "https://developer.apple.com/documentation/xctest",
     "learningSource": "Apple Developer Docs"
   },
@@ -121,7 +121,7 @@
     "totalProjects": "22+",
     "totalExperience": "4 years",
     "description": "I configure Selenium Grid to run tests in parallel across multiple browsers and OS combinations — cutting suite execution time dramatically for large regression cycles.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/selenium-grid",
+    "githubLink": "https://github.com/gyanaprakashkhandual/selenium-grid",
     "learningLink": "https://www.selenium.dev/documentation/grid/",
     "learningSource": "Selenium Grid Docs"
   },
@@ -130,7 +130,7 @@
     "totalProjects": "38+",
     "totalExperience": "5 years",
     "description": "BrowserStack is my cloud testing platform of choice — real device and browser coverage at scale, integrated directly into CI pipelines for every release.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/browserstack",
+    "githubLink": "https://github.com/gyanaprakashkhandual/browserstack",
     "learningLink": "https://www.browserstack.com/docs/",
     "learningSource": "BrowserStack Docs"
   },
@@ -139,7 +139,7 @@
     "totalProjects": "28+",
     "totalExperience": "4 years",
     "description": "I use Sauce Labs for parallel cloud test execution across hundreds of browser and device combinations — with detailed video replays to debug failures fast.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/sauce-labs",
+    "githubLink": "https://github.com/gyanaprakashkhandual/sauce-labs",
     "learningLink": "https://docs.saucelabs.com/",
     "learningSource": "Sauce Labs Docs"
   },
@@ -148,7 +148,7 @@
     "totalProjects": "30+",
     "totalExperience": "4 years",
     "description": "I containerize test environments with Docker to ensure consistent, isolated execution — no more flaky tests caused by environment differences between local and CI.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/docker",
+    "githubLink": "https://github.com/gyanaprakashkhandual/docker",
     "learningLink": "https://docs.docker.com/",
     "learningSource": "Docker Docs"
   },
@@ -157,7 +157,7 @@
     "totalProjects": "42+",
     "totalExperience": "5 years",
     "description": "I wire test suites into GitHub Actions workflows so every pull request triggers automated regression runs — catching breaking changes before they ever reach main.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/github-actions",
+    "githubLink": "https://github.com/gyanaprakashkhandual/github-actions",
     "learningLink": "https://docs.github.com/en/actions",
     "learningSource": "GitHub Docs"
   },
@@ -166,7 +166,7 @@
     "totalProjects": "25+",
     "totalExperience": "4 years",
     "description": "Allure transforms raw test results into beautiful, stakeholder-friendly reports — with step-by-step breakdowns, screenshots, and trend history across builds.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/allure-report",
+    "githubLink": "https://github.com/gyanaprakashkhandual/allure-report",
     "learningLink": "https://allurereport.org/docs/",
     "learningSource": "Allure Docs"
   },
@@ -175,7 +175,7 @@
     "totalProjects": "27+",
     "totalExperience": "4 years",
     "description": "I generate rich HTML test reports with Extent Reports — capturing test status, logs, screenshots, and environment details in a single shareable document after every run.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/extent-reports",
+    "githubLink": "https://github.com/gyanaprakashkhandual/extent-reports",
     "learningLink": "https://www.extentreports.com/docs/versions/5/java/index.html",
     "learningSource": "Extent Reports Docs"
   }

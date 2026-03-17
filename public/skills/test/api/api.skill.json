@@ -4,7 +4,7 @@
     "totalProjects": "60+",
     "totalExperience": "5 years",
     "description": "Postman is my API testing command center — I build collections, chain requests, manage environments, and run automated monitors that validate every endpoint I ship.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/postman",
+    "githubLink": "https://github.com/gyanaprakashkhandual/postman",
     "learningLink": "https://learning.postman.com/docs/getting-started/overview/",
     "learningSource": "Postman Docs"
   },
@@ -13,7 +13,7 @@
     "totalProjects": "55+",
     "totalExperience": "5 years",
     "description": "I write detailed Postman test scripts with status code checks, schema validations, response time assertions, and dynamic variable extractions baked into every request.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/postman-assertion",
+    "githubLink": "https://github.com/gyanaprakashkhandual/postman-assertion",
     "learningLink": "https://learning.postman.com/docs/writing-scripts/test-scripts/",
     "learningSource": "Postman Docs"
   },
@@ -22,7 +22,7 @@
     "totalProjects": "50+",
     "totalExperience": "5 years",
     "description": "Rest Assured is my Java API testing powerhouse — its fluent BDD-style syntax makes writing readable, maintainable HTTP assertions a genuinely pleasant experience.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/rest-assured",
+    "githubLink": "https://github.com/gyanaprakashkhandual/rest-assured",
     "learningLink": "https://rest-assured.io/",
     "learningSource": "Rest Assured Docs"
   },
@@ -31,7 +31,7 @@
     "totalProjects": "40+",
     "totalExperience": "4 years",
     "description": "TestNG orchestrates my Java API test suites with parallel execution, grouped test runs, and data providers that drive hundreds of parameterized scenarios from a single test.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/testng",
+    "githubLink": "https://github.com/gyanaprakashkhandual/testng",
     "learningLink": "https://testng.org/doc/documentation-main/documentation-main.html",
     "learningSource": "TestNG Docs"
   },
@@ -40,7 +40,7 @@
     "totalProjects": "42+",
     "totalExperience": "4 years",
     "description": "JUnit underpins my unit and integration test layers — lifecycle hooks, parameterized tests, and extension points give me precise control over every test execution.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/junit",
+    "githubLink": "https://github.com/gyanaprakashkhandual/junit",
     "learningLink": "https://junit.org/junit5/docs/current/user-guide/",
     "learningSource": "JUnit 5 Docs"
   },
@@ -49,7 +49,7 @@
     "totalProjects": "35+",
     "totalExperience": "4 years",
     "description": "BDD is how I align testing with business intent — writing Given-When-Then scenarios that non-technical stakeholders can read, review, and sign off on directly.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/bdd",
+    "githubLink": "https://github.com/gyanaprakashkhandual/bdd",
     "learningLink": "https://cucumber.io/docs/bdd/",
     "learningSource": "Cucumber BDD Docs"
   },
@@ -58,7 +58,7 @@
     "totalProjects": "38+",
     "totalExperience": "4 years",
     "description": "Cucumber turns acceptance criteria into living documentation — I wire Gherkin feature files to step definitions that execute real API calls and assert real responses.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/cucumber",
+    "githubLink": "https://github.com/gyanaprakashkhandual/cucumber",
     "learningLink": "https://cucumber.io/docs/guides/overview/",
     "learningSource": "Cucumber Docs"
   },
@@ -67,7 +67,7 @@
     "totalProjects": "30+",
     "totalExperience": "4 years",
     "description": "I build Jenkins pipelines that trigger API test suites on every merge — with stage-gated deployments that only proceed when all contract and regression tests pass.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/jenkins",
+    "githubLink": "https://github.com/gyanaprakashkhandual/jenkins",
     "learningLink": "https://www.jenkins.io/doc/",
     "learningSource": "Jenkins Docs"
   },
@@ -76,7 +76,7 @@
     "totalProjects": "28+",
     "totalExperience": "4 years",
     "description": "I design data-driven test frameworks using Excel, JSON, and CSV bindings — one test method covering hundreds of input combinations without duplicating a single line of code.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/data-bindings",
+    "githubLink": "https://github.com/gyanaprakashkhandual/data-bindings",
     "learningLink": "https://testng.org/doc/documentation-main/documentation-main.html#parameters-with-dataprovider",
     "learningSource": "TestNG Docs"
   },
@@ -85,7 +85,7 @@
     "totalProjects": "20+",
     "totalExperience": "3 years",
     "description": "I use SoapUI for SOAP and REST service testing in enterprise environments — load tests, security scans, and mock services are all part of my SoapUI toolkit.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/soapui",
+    "githubLink": "https://github.com/gyanaprakashkhandual/soapui",
     "learningLink": "https://www.soapui.org/docs/",
     "learningSource": "SoapUI Docs"
   },
@@ -94,7 +94,7 @@
     "totalProjects": "32+",
     "totalExperience": "4 years",
     "description": "JMeter is my load testing workhorse — I simulate thousands of concurrent API users, analyze throughput trends, and identify bottlenecks before traffic spikes hit production.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/jmeter",
+    "githubLink": "https://github.com/gyanaprakashkhandual/jmeter",
     "learningLink": "https://jmeter.apache.org/usermanual/index.html",
     "learningSource": "JMeter Docs"
   },
@@ -103,7 +103,7 @@
     "totalProjects": "18+",
     "totalExperience": "3 years",
     "description": "Karate DSL lets me write API tests without a single line of Java — its unified syntax for HTTP, assertions, and mocking makes it incredibly fast to adopt and scale.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/karatedsl",
+    "githubLink": "https://github.com/gyanaprakashkhandual/karatedsl",
     "learningLink": "https://karatelabs.github.io/karate/",
     "learningSource": "Karate Docs"
   },
@@ -112,7 +112,7 @@
     "totalProjects": "35+",
     "totalExperience": "4 years",
     "description": "I generate polished Extent HTML reports after every test run — with test status summaries, failure screenshots, environment metadata, and historical trend comparisons.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/extent-report",
+    "githubLink": "https://github.com/gyanaprakashkhandual/extent-report",
     "learningLink": "https://www.extentreports.com/docs/versions/5/java/index.html",
     "learningSource": "Extent Reports Docs"
   },
@@ -121,7 +121,7 @@
     "totalProjects": "33+",
     "totalExperience": "4 years",
     "description": "Allure transforms raw test results into beautiful stakeholder-ready reports — step-level breakdowns, request-response logs, and build-over-build trend analytics all in one view.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/allure-report",
+    "githubLink": "https://github.com/gyanaprakashkhandual/allure-report",
     "learningLink": "https://allurereport.org/docs/",
     "learningSource": "Allure Docs"
   },
@@ -130,7 +130,7 @@
     "totalProjects": "25+",
     "totalExperience": "4 years",
     "description": "When off-the-shelf reports don't cut it, I build custom HTML dashboards from scratch — tailored metrics, branded layouts, and interactive charts for client-facing test summaries.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/custom-html-report",
+    "githubLink": "https://github.com/gyanaprakashkhandual/custom-html-report",
     "learningLink": "https://developer.mozilla.org/en-US/docs/Web/HTML",
     "learningSource": "MDN Web Docs"
   },
@@ -139,7 +139,7 @@
     "totalProjects": "70+",
     "totalExperience": "5 years",
     "description": "JSON is the universal language of APIs I speak fluently — from crafting complex nested request bodies to parsing deeply nested responses in automated assertions.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/json",
+    "githubLink": "https://github.com/gyanaprakashkhandual/json",
     "learningLink": "https://www.json.org/json-en.html",
     "learningSource": "JSON.org"
   },
@@ -148,7 +148,7 @@
     "totalProjects": "28+",
     "totalExperience": "4 years",
     "description": "Newman brings Postman collections to the command line — I integrate it into CI pipelines so API regression suites run headlessly on every push with full HTML reports.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/newman",
+    "githubLink": "https://github.com/gyanaprakashkhandual/newman",
     "learningLink": "https://learning.postman.com/docs/collections/using-newman-cli/overview/",
     "learningSource": "Postman Docs"
   },
@@ -157,7 +157,7 @@
     "totalProjects": "22+",
     "totalExperience": "3 years",
     "description": "I script k6 performance tests in JavaScript to stress-test APIs under realistic load profiles — surfacing p95 latency spikes and error rates before they reach production.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/k6",
+    "githubLink": "https://github.com/gyanaprakashkhandual/k6",
     "learningLink": "https://grafana.com/docs/k6/latest/",
     "learningSource": "k6 Docs"
   },
@@ -166,7 +166,7 @@
     "totalProjects": "24+",
     "totalExperience": "4 years",
     "description": "WireMock lets me stub third-party APIs and test edge cases that real services can't reliably reproduce — fault injection, delays, and custom error scenarios all on demand.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/wiremock",
+    "githubLink": "https://github.com/gyanaprakashkhandual/wiremock",
     "learningLink": "https://wiremock.org/docs/",
     "learningSource": "WireMock Docs"
   },
@@ -175,7 +175,7 @@
     "totalProjects": "16+",
     "totalExperience": "3 years",
     "description": "Pact keeps my microservices honest — consumer-driven contract tests ensure that API providers never silently break the consumers depending on them across deployments.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/pact",
+    "githubLink": "https://github.com/gyanaprakashkhandual/pact",
     "learningLink": "https://docs.pact.io/",
     "learningSource": "Pact Docs"
   },
@@ -184,7 +184,7 @@
     "totalProjects": "45+",
     "totalExperience": "5 years",
     "description": "I treat OpenAPI specs as the single source of truth for API contracts — generating interactive docs, client SDKs, and test stubs directly from the specification.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/openapi-swagger",
+    "githubLink": "https://github.com/gyanaprakashkhandual/openapi-swagger",
     "learningLink": "https://swagger.io/specification/",
     "learningSource": "OpenAPI Specification"
   },
@@ -193,7 +193,7 @@
     "totalProjects": "30+",
     "totalExperience": "4 years",
     "description": "I validate API response structures against JSON schemas automatically — catching missing fields, wrong types, and unexpected nulls before they silently break downstream consumers.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/json-schema-validator",
+    "githubLink": "https://github.com/gyanaprakashkhandual/json-schema-validator",
     "learningLink": "https://json-schema.org/learn/getting-started-step-by-step",
     "learningSource": "JSON Schema Docs"
   },
@@ -202,7 +202,7 @@
     "totalProjects": "26+",
     "totalExperience": "4 years",
     "description": "I test OAuth 2.0 flows end-to-end — authorization code, client credentials, and token refresh scenarios — ensuring secure API access works flawlessly across all grant types.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/oauth2-tools",
+    "githubLink": "https://github.com/gyanaprakashkhandual/oauth2-tools",
     "learningLink": "https://oauth.net/2/",
     "learningSource": "OAuth Docs"
   },
@@ -211,7 +211,7 @@
     "totalProjects": "40+",
     "totalExperience": "5 years",
     "description": "I decode, validate, and manipulate JWTs in test scenarios — verifying claims, testing token expiry edge cases, and ensuring auth headers behave correctly across secured endpoints.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/jwt-utilities",
+    "githubLink": "https://github.com/gyanaprakashkhandual/jwt-utilities",
     "learningLink": "https://jwt.io/introduction",
     "learningSource": "JWT Docs"
   },
@@ -220,7 +220,7 @@
     "totalProjects": "28+",
     "totalExperience": "4 years",
     "description": "Apache HttpClient gives me low-level HTTP control in Java — custom headers, connection pooling, SSL configuration, and retry logic for precise API interaction in test frameworks.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/apache-httpclient",
+    "githubLink": "https://github.com/gyanaprakashkhandual/apache-httpclient",
     "learningLink": "https://hc.apache.org/httpcomponents-client-5.2.x/index.html",
     "learningSource": "Apache HttpClient Docs"
   },
@@ -229,7 +229,7 @@
     "totalProjects": "20+",
     "totalExperience": "3 years",
     "description": "Retrofit turns REST API calls into clean Java interfaces — I use it for type-safe HTTP clients in Android and backend test harnesses with minimal boilerplate.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/retrofit",
+    "githubLink": "https://github.com/gyanaprakashkhandual/retrofit",
     "learningLink": "https://square.github.io/retrofit/",
     "learningSource": "Retrofit Docs"
   },
@@ -238,7 +238,7 @@
     "totalProjects": "50+",
     "totalExperience": "5 years",
     "description": "Axios is my JavaScript HTTP client of choice — interceptors, automatic JSON parsing, and clean promise-based syntax make it indispensable in both frontend and Node.js test scripts.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/axios",
+    "githubLink": "https://github.com/gyanaprakashkhandual/axios",
     "learningLink": "https://axios-http.com/docs/intro",
     "learningSource": "Axios Docs"
   },
@@ -247,7 +247,7 @@
     "totalProjects": "25+",
     "totalExperience": "4 years",
     "description": "OkHttp is my efficient Java HTTP client for test automation — connection pooling, transparent GZIP, and response caching keep my API test suites fast and resource-friendly.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/okhttp",
+    "githubLink": "https://github.com/gyanaprakashkhandual/okhttp",
     "learningLink": "https://square.github.io/okhttp/",
     "learningSource": "OkHttp Docs"
   },
@@ -256,7 +256,7 @@
     "totalProjects": "35+",
     "totalExperience": "4 years",
     "description": "I containerize entire API test environments with Docker — isolated, reproducible test runs that behave identically on a developer laptop and a CI server at 2am.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/docker",
+    "githubLink": "https://github.com/gyanaprakashkhandual/docker",
     "learningLink": "https://docs.docker.com/",
     "learningSource": "Docker Docs"
   },
@@ -265,7 +265,7 @@
     "totalProjects": "48+",
     "totalExperience": "5 years",
     "description": "Every API test suite I own runs automatically through GitHub Actions — triggered on PRs, scheduled nightly, and gating deployments when critical contract tests fail.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/github-actions",
+    "githubLink": "https://github.com/gyanaprakashkhandual/github-actions",
     "learningLink": "https://docs.github.com/en/actions",
     "learningSource": "GitHub Docs"
   },
@@ -274,7 +274,7 @@
     "totalProjects": "30+",
     "totalExperience": "4 years",
     "description": "I configure GitLab CI pipelines with dedicated API test stages — parallel job execution, artifact publishing, and environment-specific test configs that scale across teams.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/gitlab-ci",
+    "githubLink": "https://github.com/gyanaprakashkhandual/gitlab-ci",
     "learningLink": "https://docs.gitlab.com/ee/ci/",
     "learningSource": "GitLab Docs"
   },
@@ -283,7 +283,7 @@
     "totalProjects": "22+",
     "totalExperience": "4 years",
     "description": "I schedule Postman Monitors to run collection tests on a cadence against live environments — catching API regressions and SLA breaches around the clock without manual intervention.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/postman-monitor",
+    "githubLink": "https://github.com/gyanaprakashkhandual/postman-monitor",
     "learningLink": "https://learning.postman.com/docs/monitoring-your-api/intro-monitors/",
     "learningSource": "Postman Docs"
   },
@@ -292,7 +292,7 @@
     "totalProjects": "26+",
     "totalExperience": "4 years",
     "description": "MockServer lets me simulate any HTTP dependency in isolation — I define expectations, verify interactions, and test failure scenarios that would be impossible with real services.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/mockserver",
+    "githubLink": "https://github.com/gyanaprakashkhandual/mockserver",
     "learningLink": "https://www.mock-server.com/",
     "learningSource": "MockServer Docs"
   },
@@ -301,7 +301,7 @@
     "totalProjects": "18+",
     "totalExperience": "3 years",
     "description": "Gatling is my Scala-powered performance testing tool — I write simulation scripts that model real user traffic patterns and generate detailed HTML performance reports automatically.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/gatling",
+    "githubLink": "https://github.com/gyanaprakashkhandual/gatling",
     "learningLink": "https://docs.gatling.io/",
     "learningSource": "Gatling Docs"
   },
@@ -310,7 +310,7 @@
     "totalProjects": "15+",
     "totalExperience": "3 years",
     "description": "I stream performance test metrics into InfluxDB for time-series analysis — pairing it with Grafana dashboards to visualize latency trends and throughput patterns across test runs.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/influxdb",
+    "githubLink": "https://github.com/gyanaprakashkhandual/influxdb",
     "learningLink": "https://docs.influxdata.com/influxdb/v2/",
     "learningSource": "InfluxDB Docs"
   }

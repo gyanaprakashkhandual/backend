@@ -4,7 +4,7 @@
     "totalProjects": "20+",
     "totalExperience": "5 years",
     "description": "My go-to ODM for MongoDB — schema design, validation, and complex aggregations are second nature to me.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/mongoose",
+    "githubLink": "https://github.com/gyanaprakashkhandual/mongoose",
     "learningLink": "https://mongoosejs.com/docs/",
     "learningSource": "Mongoose Docs"
   },
@@ -13,7 +13,7 @@
     "totalProjects": "15+",
     "totalExperience": "4 years",
     "description": "I love how Prisma brings type-safety to database operations — my preferred ORM for modern Node.js apps.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/prisma",
+    "githubLink": "https://github.com/gyanaprakashkhandual/prisma",
     "learningLink": "https://www.prisma.io/docs/",
     "learningSource": "Prisma Docs"
   },
@@ -22,7 +22,7 @@
     "totalProjects": "9+",
     "totalExperience": "3 years",
     "description": "Great for lightweight, embedded database needs — I use SQLite extensively in prototyping and offline-first apps.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/sqlite",
+    "githubLink": "https://github.com/gyanaprakashkhandual/sqlite",
     "learningLink": "https://www.sqlite.org/docs.html",
     "learningSource": "SQLite Docs"
   },
@@ -31,7 +31,7 @@
     "totalProjects": "8+",
     "totalExperience": "3 years",
     "description": "Powerful full-text search engine I rely on for building fast, scalable search features across large datasets.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/elasticsearch",
+    "githubLink": "https://github.com/gyanaprakashkhandual/elasticsearch",
     "learningLink": "https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html",
     "learningSource": "Elastic Docs"
   },
@@ -40,7 +40,7 @@
     "totalProjects": "7+",
     "totalExperience": "3 years",
     "description": "My lightweight alternative to Elasticsearch — blazing fast search with minimal configuration and great developer experience.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/meilisearch",
+    "githubLink": "https://github.com/gyanaprakashkhandual/meilisearch",
     "learningLink": "https://www.meilisearch.com/docs/",
     "learningSource": "Meilisearch Docs"
   },
@@ -49,7 +49,7 @@
     "totalProjects": "14+",
     "totalExperience": "4 years",
     "description": "Deep understanding of database indexing strategies that dramatically cut query times and boost application performance.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/indexing",
+    "githubLink": "https://github.com/gyanaprakashkhandual/indexing",
     "learningLink": "https://use-the-index-luke.com/",
     "learningSource": "Use The Index Luke"
   },
@@ -58,7 +58,7 @@
     "totalProjects": "22+",
     "totalExperience": "5 years",
     "description": "Crafting optimized queries across SQL and NoSQL databases is one of my strongest suits — I enjoy squeezing every bit of performance.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/querying",
+    "githubLink": "https://github.com/gyanaprakashkhandual/querying",
     "learningLink": "https://www.w3schools.com/sql/",
     "learningSource": "W3Schools"
   },
@@ -67,7 +67,7 @@
     "totalProjects": "16+",
     "totalExperience": "4 years",
     "description": "I implement cursor-based and offset pagination patterns to ensure smooth, efficient data loading at any scale.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/pagination",
+    "githubLink": "https://github.com/gyanaprakashkhandual/pagination",
     "learningLink": "https://www.prisma.io/docs/orm/prisma-client/queries/pagination",
     "learningSource": "Prisma Docs"
   },
@@ -76,7 +76,7 @@
     "totalProjects": "5+",
     "totalExperience": "2 years",
     "description": "A headless CMS I use to manage structured content with powerful GraphQL APIs — great for content-driven projects.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/hygraph",
+    "githubLink": "https://github.com/gyanaprakashkhandual/hygraph",
     "learningLink": "https://hygraph.com/docs",
     "learningSource": "Hygraph Docs"
   },
@@ -85,7 +85,7 @@
     "totalProjects": "4+",
     "totalExperience": "2 years",
     "description": "I use Liquibase to manage and track database schema changes in a version-controlled, team-friendly way.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/liquibase",
+    "githubLink": "https://github.com/gyanaprakashkhandual/liquibase",
     "learningLink": "https://docs.liquibase.com/home.html",
     "learningSource": "Liquibase Docs"
   },
@@ -94,7 +94,7 @@
     "totalProjects": "8+",
     "totalExperience": "3 years",
     "description": "Hands-on experience deploying and scaling relational databases on AWS RDS with automated backups and high availability.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/amazon-rds",
+    "githubLink": "https://github.com/gyanaprakashkhandual/amazon-rds",
     "learningLink": "https://docs.aws.amazon.com/rds/",
     "learningSource": "AWS Docs"
   },
@@ -103,7 +103,7 @@
     "totalProjects": "10+",
     "totalExperience": "3 years",
     "description": "My favorite open-source Firebase alternative — I use Supabase for real-time databases, auth, and storage in full-stack apps.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/supabase",
+    "githubLink": "https://github.com/gyanaprakashkhandual/supabase",
     "learningLink": "https://supabase.com/docs",
     "learningSource": "Supabase Docs"
   },
@@ -112,7 +112,7 @@
     "totalProjects": "13+",
     "totalExperience": "4 years",
     "description": "Advanced MongoDB usage including aggregation pipelines, transactions, change streams, and Atlas search for production-grade systems.",
-    "githubLink": "https://github.com/GyanaprakashKhandual/mongodb-plus",
+    "githubLink": "https://github.com/gyanaprakashkhandual/mongodb-plus",
     "learningLink": "https://www.mongodb.com/docs/manual/",
     "learningSource": "MongoDB Docs"
   }
