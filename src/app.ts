@@ -24,7 +24,7 @@ connectDB();
 // ── CORS (must be first) ────────────────────────────────
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://gyanprakash.vercel.app"],
+    origin: ["http://localhost:3000", "https://gyanprakash.vercel.app", "https://khandual.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
