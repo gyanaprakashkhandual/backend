@@ -11,45 +11,24 @@ const router = Router();
 router.get("/",          getAllMusic);
 router.get("/:id",       getMusicById);
 
-router.post("/",      async (req, res, next) => {
-  await (["/api/music*"]);
-  next();
-}, createMusic);
+router.post("/", createMusic);
 
-router.put("/:id",    async (req, res, next) => {
-  await  (["/api/music*"]);
-  next();
-}, updateMusic);
+router.put("/:id", updateMusic);
 
-router.delete("/:id", async (req, res, next) => {
-  await  (["/api/music*"]);
-  next();
-}, deleteMusic);
+router.delete("/:id", deleteMusic);
 
 // ─── Likes ────────────────────────────────────────────────────────────────────
-router.post("/:id/like",  async (req, res, next) => {
-  await  ([`/api/music/${req.params.id}/likes*`]);
-  next();
-}, toggleLike);
+router.post("/:id/like", toggleLike);
 
-router.get("/:id/likes",     getLikes);
+router.get("/:id/likes", getLikes);
 
 // ─── Comments ─────────────────────────────────────────────────────────────────
-router.post("/:id/comments", async (req, res, next) => {
-  await  ([`/api/music/${req.params.id}/comments*`]);
-  next();
-}, addComment);
+router.post("/:id/comments", addComment);
 
-router.get("/:id/comments",                  getComments);
+router.get("/:id/comments", getComments);
 
-router.patch("/:id/comments/:commentId",  async (req, res, next) => {
-  await  ([`/api/music/${req.params.id}/comments*`]);
-  next();
-}, updateComment);
+router.patch("/:id/comments/:commentId", updateComment);
 
-router.delete("/:id/comments/:commentId", async (req, res, next) => {
-  await  ([`/api/music/${req.params.id}/comments*`]);
-  next();
-}, deleteComment);
+router.delete("/:id/comments/:commentId", deleteComment);
 
 export default router;

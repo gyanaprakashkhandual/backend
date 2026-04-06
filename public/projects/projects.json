@@ -5,8 +5,8 @@
     "projectDescription": "A web application for automating all the manual effort on automation testing.",
     "projectType": "Full Stack Web Application",
     "projectTags": ["Web Development", "Automation Testing", "Full Stack"],
-    "projectBackendRepository": "https://github.com/GyanaprakashKhandual/Bug-tracker-backend",
-    "projectFrontendRepository": "https://github.com/GyanaprakashKhandual/Bug-tracker-frontend",
+    "projectBackendRepository": "https://github.com/GyanaprakashKhandual/bug-tracker-backend",
+    "projectFrontendRepository": "https://github.com/GyanaprakashKhandual/bug-tracker-frontend",
     "projectLiveDemo": "https://caffetest.vercel.app/",
     "projectImage": [
       "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/caffetest_dashboard.png",
