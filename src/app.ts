@@ -6,11 +6,8 @@ import connectDB from "./configs/db.config.js";
 
 import projectRoutes from "./routes/project.route.js";
 import skillRoutes from "./routes/skill.route.js";
-import educationRoutes from "./routes/education.route.js";
-import experienceRoutes from "./routes/experience.route.js";
 import musicRoutes from "./routes/music.route.js";
 import userRoutes from "./routes/user.route.js";
-import blogRoutes from "./routes/blog.route.js";
 import contactRoutes from "./routes/contact.route.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -42,11 +39,8 @@ app.use(express.static(path.join(__dirname, "../public")));
 // ── API Routes ──────────────────────────────────────────
 app.use("/api/projects",   projectRoutes);
 app.use("/api/skills",     skillRoutes);
-app.use("/api/education",  educationRoutes);
-app.use("/api/experience", experienceRoutes);
 app.use("/api/music",      musicRoutes);
 app.use("/api/user",       userRoutes);
-app.use("/api/blogs",      blogRoutes);
 app.use("/api/contact",    contactRoutes);
 
 // ── Health Check ────────────────────────────────────────
