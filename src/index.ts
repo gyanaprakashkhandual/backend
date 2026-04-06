@@ -8,7 +8,6 @@ const server = app.listen(PORT, () => {
   console.log(`Server: http://${HOST}:${PORT}`);
 });
 
-// Graceful shutdown
 process.on("SIGTERM", () => {
   console.log("SIGTERM signal received: closing HTTP server");
   server.close(() => {
