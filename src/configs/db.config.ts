@@ -9,9 +9,7 @@ const connectDB = async (): Promise<void> => {
     }
 
     await mongoose.connect(mongoURI);
-    console.log(
-      "Host-" + mongoose.connection.host,
-    );
+    console.log("Host-" + mongoose.connection.host);
   } catch (error) {
     console.error("MongoDB connection error:", error);
     process.exit(1);
