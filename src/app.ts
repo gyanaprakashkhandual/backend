@@ -4,8 +4,6 @@ import path from "path";
 import { fileURLToPath } from "url";
 import connectDB from "./configs/db.config.js";
 
-import projectRoutes from "./routes/project.route.js";
-import skillRoutes from "./routes/skill.route.js";
 import musicRoutes from "./routes/music.route.js";
 import userRoutes from "./routes/user.route.js";
 import contactRoutes from "./routes/contact.route.js";
@@ -36,8 +34,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static(path.join(__dirname, "../public")));
 
-app.use("/api/projects", projectRoutes);
-app.use("/api/skills", skillRoutes);
 app.use("/api/music", musicRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/contact", contactRoutes);
