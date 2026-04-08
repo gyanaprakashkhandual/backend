@@ -6,12 +6,22 @@ const isValidId = (id: string) => mongoose.Types.ObjectId.isValid(id);
 /** GET /api/music — fetch all tracks sorted newest first */
 export const getAllMusic = async (req: any, res: any) => {
   try {
-    const music = await Music.find().sort({ createdAt: -1 });
+    const page = Math.max(1, parseInt(req.query.page) || 1);
+    const limit = Math.min(100, parseInt(req.query.limit) || 20);
+    const skip = (page - 1) * limit;
+
+    const [music, total] = await Promise.all([
+      Music.find().sort({ createdAt: -1 }).skip(skip).limit(limit),
+      Music.countDocuments()
+    ]);
+
     res.status(200).json({
       success: true,
       message: "Music fetched successfully",
       data: music,
-      total: music.length,
+      total,
+      page,
+      pages: Math.ceil(total / limit),
     });
   } catch (err: any) {
     res
@@ -19,7 +29,6 @@ export const getAllMusic = async (req: any, res: any) => {
       .json({ success: false, message: err.message ?? "Server error" });
   }
 };
-
 /** GET /api/music/:id — fetch a single track by ID */
 export const getMusicById = async (req: any, res: any) => {
   try {
